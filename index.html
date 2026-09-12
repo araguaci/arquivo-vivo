@@ -11,17 +11,17 @@
   <link rel="manifest" href="./manifest.json">
   <link rel="icon" href="./assets/arquivo-vivo-icon.png" type="image/png">
   <link rel="apple-touch-icon" href="./assets/arquivo-vivo-icon.png">
-  <link rel="canonical" href="https://arquivo-vivo.artesdosul.com/">
+  <link rel="canonical" href="https://arquivo-vivo-omega.vercel.app/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Artes do Sul">
-  <meta property="og:url" content="https://arquivo-vivo.artesdosul.com/">
+  <meta property="og:url" content="https://arquivo-vivo-omega.vercel.app/">
   <meta property="og:title" content="Arquivo Vivo da Sabedoria Prática">
   <meta property="og:description" content="Corpus evidencial de casos brasileiros — valor documentado, não autodeclarado. Eixo SELVA. CC0 1.0.">
-  <meta property="og:image" content="https://arquivo-vivo.artesdosul.com/assets/arquivo-vivo-hero.png">
+  <meta property="og:image" content="https://arquivo-vivo-omega.vercel.app/assets/arquivo-vivo-hero.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Arquivo Vivo da Sabedoria Prática">
   <meta name="twitter:description" content="Catálogo aberto de resolução prática, ofício e contribuição coletiva no Brasil.">
-  <meta name="twitter:image" content="https://arquivo-vivo.artesdosul.com/assets/arquivo-vivo-hero.png">
+  <meta name="twitter:image" content="https://arquivo-vivo-omega.vercel.app/assets/arquivo-vivo-hero.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -269,18 +269,34 @@
     }
     .trilha-card h3 { font-size: 1.05rem; margin: 8px 0 6px; }
     .trilha-card p { color: var(--muted); font-size: 0.9rem; }
-    #entries { display: grid; gap: 12px; }
+    #entries {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 14px;
+    }
     .entry {
       background: var(--bg-card);
       backdrop-filter: var(--glass-blur);
       border: 1px solid var(--border);
       border-left: 3px solid var(--accent-orange);
       border-radius: 14px;
-      padding: 18px 18px 16px;
+      padding: 0;
+      overflow: hidden;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      color: inherit;
+      width: 100%;
     }
     .entry[data-trilha="2"] { border-left-color: var(--accent-cyan); }
     .entry[data-trilha="3"] { border-left-color: var(--accent-green); }
     .entry.is-done { outline: 1px solid rgba(16,185,129,0.28); }
+    .entry-visual {
+      aspect-ratio: 16/9;
+      background: #111 center/cover no-repeat;
+    }
+    .entry-body { padding: 14px 16px 16px; }
     .entry-top { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
     .badge {
       font-family: "JetBrains Mono", monospace;
@@ -293,8 +309,22 @@
     .badge.ev-confirmed { color: var(--accent-green); border-color: rgba(16,185,129,0.4); }
     .badge.ev-alleged { color: var(--accent-orange); border-color: rgba(255,107,53,0.4); }
     .badge.ev-contested { color: var(--accent-cyan); border-color: rgba(0,217,255,0.4); }
-    .entry h3 { font-size: 1.18rem; letter-spacing: -0.02em; margin-bottom: 8px; }
-    .entry .resumo { color: #d4d1ca; font-size: 0.96rem; }
+    .entry h3 { font-size: 1.05rem; letter-spacing: -0.02em; margin-bottom: 8px; }
+    .entry .resumo {
+      color: #d4d1ca;
+      font-size: 0.9rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .proto-mini {
+      margin-top: 12px;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.66rem;
+      color: var(--muted);
+    }
+    .proto-mini strong { color: var(--accent-orange); }
     .meta {
       display: flex;
       flex-wrap: wrap;
@@ -343,13 +373,6 @@
       border-radius: 14px;
       color: var(--muted);
     }
-    .protocol {
-      margin-top: 56px;
-      padding-top: 28px;
-      border-top: 1px solid var(--border);
-    }
-    .protocol h2 { font-size: 1.6rem; margin-bottom: 8px; }
-    .protocol > p { color: var(--muted); margin-bottom: 16px; }
     .check {
       display: flex;
       gap: 12px;
@@ -363,6 +386,52 @@
     }
     .check input { accent-color: var(--accent-orange); margin-top: 3px; }
     .check.is-on { border-color: rgba(16,185,129,0.35); }
+    #ficha {
+      position: fixed;
+      inset: 0;
+      z-index: 46;
+      background: #050505;
+      overflow: auto;
+      display: none;
+    }
+    #ficha.is-open { display: block; }
+    body.ficha-open { overflow: hidden; }
+    .ficha-hero {
+      position: relative;
+      min-height: 46vh;
+      background: #111 center/cover no-repeat;
+    }
+    .ficha-hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(5,5,5,0.15), #050505);
+    }
+    .ficha-bar {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 12px 20px;
+      background: rgba(5,5,5,0.82);
+      backdrop-filter: var(--glass-blur);
+      border-bottom: 1px solid var(--border);
+    }
+    .ficha-wrap { max-width: 760px; margin: -88px auto 80px; padding: 0 20px; position: relative; }
+    .ficha-wrap h2 { font-size: clamp(1.6rem, 4vw, 2.4rem); letter-spacing: -0.03em; margin: 12px 0 10px; }
+    .ficha-sec { margin: 22px 0; }
+    .ficha-sec h3 {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.72rem;
+      color: var(--accent-cyan);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .ficha-sec p { color: #d8d5ce; }
+    .ficha-nav { display: flex; gap: 8px; flex-wrap: wrap; }
     footer {
       border-top: 1px solid var(--border);
       padding: 28px 24px 36px;
@@ -431,7 +500,7 @@
     <nav>
       <a href="#trilhas">Trilhas</a>
       <a href="#entries">Entradas</a>
-      <a href="#protocolo">Protocolo</a>
+      <a href="#entries">Protocolo</a>
       <a href="https://github.com/araguaci/arquivo-vivo" target="_blank" rel="noopener">Repo</a>
       <div class="score-pill" id="score-pill">Lidos <strong>0/0</strong></div>
     </nav>
@@ -492,18 +561,9 @@
     </section>
 
     <section id="entries" aria-live="polite"></section>
-
-    <section class="protocol" id="protocolo">
-      <h2>Protocolo de entrada</h2>
-      <p>Marque o que já aplicou. O progresso fica neste aparelho.</p>
-      <label class="check"><input type="checkbox" data-step="fonte"> Fonte verificável e datada — sem boato.</label>
-      <label class="check"><input type="checkbox" data-step="especifico"> Especificidade: não vira conteúdo motivacional genérico.</label>
-      <label class="check"><input type="checkbox" data-step="vinte"> Teste dos 20 anos: ainda importa daqui a duas décadas.</label>
-      <label class="check"><input type="checkbox" data-step="evidencia"> Classificação evidencial aplicada (confirmed / alleged / contested).</label>
-      <label class="check"><input type="checkbox" data-step="r1"> R1: ev-confirmed nunca sai com fontes[] vazio.</label>
-      <label class="check"><input type="checkbox" data-step="analise"> Análise interpretativa isolada do resumo factual.</label>
-    </section>
   </main>
+
+  <div id="ficha" role="dialog" aria-modal="true" aria-labelledby="ficha-title"></div>
 
   <footer>
     CC0 1.0 · Parte do <a href="https://selva.artesdosul.com/" target="_blank" rel="noopener">Eixo SELVA</a>
@@ -514,210 +574,6 @@
   <button id="top-btn" title="Topo" aria-label="Voltar ao topo">↑</button>
   <div class="toast" id="toast" role="status"></div>
 
-  <script>
-    const STORE_READ = "arquivo_vivo_completed";
-    const STORE_PROTO = "arquivo_vivo_protocol";
-    const TRILHAS = { 1: "Resolução Prática", 2: "Transmissão", 3: "Contribuição Coletiva" };
-    let entries = [];
-    let filterTrilha = "all";
-    let filterEv = "all";
-
-    const $ = (id) => document.getElementById(id);
-    const readList = () => JSON.parse(localStorage.getItem(STORE_READ) || "[]");
-    const protoList = () => JSON.parse(localStorage.getItem(STORE_PROTO) || "[]");
-
-    function toast(msg) {
-      const el = $("toast");
-      el.textContent = msg;
-      el.classList.add("show");
-      setTimeout(() => el.classList.remove("show"), 1600);
-    }
-
-    function updateScoreUI() {
-      const done = readList();
-      const total = entries.length;
-      const pct = total ? Math.round((done.length / total) * 100) : 0;
-      $("score-pill").innerHTML = `Lidos <strong>${done.length}/${total}</strong>`;
-      $("stat-score").textContent = pct + "%";
-      $("progress-bar").style.width = pct + "%";
-    }
-
-    function toggleItem(id) {
-      const done = readList();
-      const next = done.includes(id) ? done.filter((x) => x !== id) : [...done, id];
-      localStorage.setItem(STORE_READ, JSON.stringify(next));
-      updateScoreUI();
-      render();
-    }
-
-    async function copyText(text, ok) {
-      try {
-        if (navigator.clipboard && window.isSecureContext) {
-          await navigator.clipboard.writeText(text);
-          toast(ok);
-          return;
-        }
-        throw new Error("fallback");
-      } catch {
-        const ta = document.createElement("textarea");
-        ta.value = text;
-        ta.setAttribute("readonly", "");
-        ta.style.position = "fixed";
-        ta.style.left = "-9999px";
-        document.body.appendChild(ta);
-        ta.select();
-        const copied = document.execCommand("copy");
-        ta.remove();
-        toast(copied ? ok : "Não foi possível copiar");
-      }
-    }
-
-    function cite(e) {
-      const fontes = (e.fontes || []).map((f) => f.url).join("\n");
-      return `${e.id} — ${e.titulo}\n${e.resumo}\nRegião: ${e.regiao || "—"} · Evento: ${e.data_evento} · ${e.evidencia}\nhttps://arquivo-vivo.artesdosul.com/#${e.id}\n${fontes}`;
-    }
-
-    function matches(e, q) {
-      if (!q) return true;
-      const blob = [e.id, e.titulo, e.resumo, e.regiao, e.evidencia, ...(e.tags || [])].join(" ").toLowerCase();
-      return blob.includes(q);
-    }
-
-    function render() {
-      const q = $("q").value.trim().toLowerCase();
-      const done = readList();
-      const list = entries.filter((e) => {
-        if (filterTrilha !== "all" && String(e.trilha) !== filterTrilha) return false;
-        if (filterEv !== "all" && e.evidencia !== filterEv) return false;
-        return matches(e, q);
-      });
-      const box = $("entries");
-      if (!list.length) {
-        box.innerHTML = `<div class="empty"><p class="mono">Nenhum caso neste recorte.</p></div>`;
-        return;
-      }
-      box.innerHTML = list.map((e) => {
-        const studied = done.includes(e.id);
-        const tags = (e.tags || []).map((t) => `<span class="tag">${t}</span>`).join("");
-        const fontes = (e.fontes || []).map((f) => `<a href="${f.url}" target="_blank" rel="noopener">${f.tipo}</a>`).join(" · ");
-        const lacuna = e.lacuna_investigativa ? `<div class="note"><span class="mono">LACUNA</span> — ${e.lacuna_investigativa}</div>` : "";
-        const analise = e.analise ? `<div class="note"><span class="mono">ANÁLISE</span> — ${e.analise}</div>` : "";
-        return `<article class="entry${studied ? " is-done" : ""}" id="${e.id}" data-trilha="${e.trilha}">
-          <div class="entry-top">
-            <span class="badge ${e.evidencia}">${e.evidencia}</span>
-            <span class="badge mono">${e.id}</span>
-            <span class="badge">${TRILHAS[e.trilha] || "Trilha " + e.trilha}</span>
-          </div>
-          <h3>${e.titulo}</h3>
-          <p class="resumo">${e.resumo}</p>
-          <div class="meta">
-            <span>${e.regiao || "região n/d"}</span>
-            <span>${e.data_evento}</span>
-            <span>${fontes}</span>
-          </div>
-          <div class="tags">${tags}</div>
-          ${lacuna}${analise}
-          <div class="actions">
-            <button class="btn ${studied ? "done" : "primary"}" data-act="toggle" data-id="${e.id}">${studied ? "Lido" : "Marcar lido"}</button>
-            <button class="btn" data-act="cite" data-id="${e.id}">Copiar ficha</button>
-            <button class="btn" data-act="id" data-id="${e.id}">Copiar ID</button>
-            <button class="btn" data-act="json" data-id="${e.id}">Copiar JSON</button>
-          </div>
-        </article>`;
-      }).join("");
-    }
-
-    function setChipGroup(root, attr, value) {
-      root.querySelectorAll(".chip").forEach((c) => c.classList.toggle("is-on", c.dataset[attr] === value));
-    }
-
-    function bindFilters() {
-      $("trilha-chips").addEventListener("click", (ev) => {
-        const btn = ev.target.closest(".chip");
-        if (!btn) return;
-        filterTrilha = btn.dataset.trilha;
-        setChipGroup($("trilha-chips"), "trilha", filterTrilha);
-        document.querySelectorAll(".trilha-card").forEach((c) => c.classList.toggle("is-on", c.dataset.trilha === filterTrilha));
-        render();
-      });
-      $("ev-chips").addEventListener("click", (ev) => {
-        const btn = ev.target.closest(".chip");
-        if (!btn) return;
-        filterEv = btn.dataset.ev;
-        setChipGroup($("ev-chips"), "ev", filterEv);
-        render();
-      });
-      document.querySelectorAll(".trilha-card").forEach((card) => {
-        card.addEventListener("click", () => {
-          filterTrilha = card.dataset.trilha;
-          setChipGroup($("trilha-chips"), "trilha", filterTrilha);
-          document.querySelectorAll(".trilha-card").forEach((c) => c.classList.toggle("is-on", c === card));
-          $("entries").scrollIntoView({ behavior: "smooth" });
-          render();
-        });
-      });
-      $("q").addEventListener("input", render);
-      $("entries").addEventListener("click", (ev) => {
-        const btn = ev.target.closest("[data-act]");
-        if (!btn) return;
-        const item = entries.find((e) => e.id === btn.dataset.id);
-        if (!item) return;
-        if (btn.dataset.act === "toggle") toggleItem(item.id);
-        if (btn.dataset.act === "cite") copyText(cite(item), "Ficha copiada");
-        if (btn.dataset.act === "id") copyText(item.id, "ID copiado");
-        if (btn.dataset.act === "json") copyText(JSON.stringify(item, null, 2), "JSON copiado");
-      });
-    }
-
-    function bindProtocol() {
-      const saved = protoList();
-      document.querySelectorAll("#protocolo input").forEach((input) => {
-        input.checked = saved.includes(input.dataset.step);
-        input.closest(".check").classList.toggle("is-on", input.checked);
-        input.addEventListener("change", () => {
-          const next = protoList();
-          const id = input.dataset.step;
-          const updated = input.checked ? [...new Set([...next, id])] : next.filter((x) => x !== id);
-          localStorage.setItem(STORE_PROTO, JSON.stringify(updated));
-          input.closest(".check").classList.toggle("is-on", input.checked);
-        });
-      });
-    }
-
-    async function loadEntries() {
-      const box = $("entries");
-      try {
-        const res = await fetch("./data/catalog.json");
-        if (!res.ok) throw new Error("catalog");
-        const data = await res.json();
-        entries = data.entradas || [];
-        $("stat-total").textContent = entries.length;
-        $("stat-confirmed").textContent = entries.filter((e) => e.evidencia === "ev-confirmed").length;
-        $("stat-open").textContent = entries.filter((e) => e.lacuna_investigativa).length;
-        const badge = document.querySelector(".badge-float");
-        badge.innerHTML = `<i></i> Validado no Eixo SELVA · ${entries.length} casos sourceados · CC0 1.0`;
-        updateScoreUI();
-        render();
-        const hash = location.hash.slice(1);
-        if (hash && $(hash)) $(hash).scrollIntoView();
-      } catch {
-        box.innerHTML = `<div class="error"><p class="mono">Erro ao carregar catalog.json</p></div>`;
-      }
-    }
-
-    const topBtn = $("top-btn");
-    window.addEventListener("scroll", () => {
-      topBtn.style.display = window.scrollY > 400 ? "block" : "none";
-    });
-    topBtn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
-
-    bindFilters();
-    bindProtocol();
-    loadEntries();
-
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("./sw.js").catch(() => {});
-    }
-  </script>
+  <script src="./app.js"></script>
 </body>
 </html>

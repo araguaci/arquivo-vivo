@@ -1,9 +1,11 @@
-const CACHE = "arquivo-vivo-v1";
+const CACHE = "arquivo-vivo-v3";
 const PRECACHE = [
   "./",
   "./index.html",
+  "./app.js",
   "./manifest.json",
   "./data/catalog.json",
+  "./data/details.json",
   "./assets/arquivo-vivo-hero.png",
   "./assets/arquivo-vivo-icon.png"
 ];

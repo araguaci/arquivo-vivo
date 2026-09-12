@@ -1,0 +1,376 @@
+{
+  "AV-0001": {
+    "imagem": "assets/casos/AV-0001.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "Em 09/05/2024, o Conselho Consultivo do Patrimônio Cultural do Iphan reconheceu, por unanimidade, o ofício, os saberes e as práticas das parteiras tradicionais do Brasil como Patrimônio Cultural nacional, inscrito no Livro de Registro dos Saberes. O pedido de registro havia sido protocolado em 2011 pela Associação de Parteiras Tradicionais de Caruaru e Jaboatão dos Guararapes, pelo Grupo Curumim e pelo Instituto Nômades."
+      },
+      {
+        "titulo": "Como o saber se transmite",
+        "texto": "A base do registro é o Inventário Nacional de Referências Culturais realizado em Pernambuco, complementado com pesquisa etnográfica em Amapá, Amazonas, Maranhão e Goiás. O ofício circula de parteira a parteira, em casa e em território, sem depender de diploma formal como critério de valor."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Há data, instância pública e duas fontes independentes. Não é um relato motivacional sobre “cuidado”: é um reconhecimento estatal de um ofício concreto, com rastro institucional verificável."
+      }
+    ]
+  },
+  "AV-0002": {
+    "imagem": "assets/casos/AV-0002.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "Maria dos Prazeres de Souza, residente em Jaboatão dos Guararapes (PE), tornou-se em 2018 a primeira parteira tradicional titulada Patrimônio Vivo de Pernambuco. A partir desse reconhecimento, fundou o Museu da Parteira — iniciativa de salvaguarda desenhada pelas próprias parteiras, não por um museu externo que as representa."
+      },
+      {
+        "titulo": "Como o saber se transmite",
+        "texto": "O museu funciona como dispositivo de troca: o ofício deixa de circular só na oralidade doméstica e ganha um endereço público de transmissão, sem transformar a parteira em personagem de vitrine."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Nome, município, ano e titulação estadual estão cruzados em fonte institucional e reportagem. É um elo pessoal e verificável da trilha de transmissão aberta em AV-0001."
+      }
+    ]
+  },
+  "AV-0003": {
+    "imagem": "assets/casos/AV-0003.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "A UFVJM, pelo Grupo de Extensão e Pesquisa em Agricultura Familiar (GEPAF), desenvolveu um sistema de fossa séptica biodigestora de placas para comunidades de agricultores familiares sem rede de esgoto nos Vales do Jequitinhonha e Mucuri (MG). A tecnologia foi certificada na 12ª edição do Prêmio Fundação Banco do Brasil de Tecnologia Social."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "Sem coleta urbana, o esgoto doméstico no rural desses vales costuma ir para fossa rudimentar ou curso d’água. O desenho em placas busca um tratamento construível com materiais e mão de obra local."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Instituição, território e certificação pública estão nomeados. Não é “saneamento no Brasil”: é um artefato específico, com rastro de prêmio e de campus."
+      }
+    ]
+  },
+  "AV-0004": {
+    "imagem": "assets/casos/AV-0004.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "A Associação Sociedade do Sol, em São Paulo, desenvolveu um aquecedor solar de baixo custo certificado em edições do Prêmio Fundação Banco do Brasil de Tecnologia Social. O alvo declarado é a redução do custo energético em moradias populares — não o mercado de painel de alto padrão."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "Chuveiro elétrico concentra gasto de energia em casas de baixa renda. Um coletor simples no telhado desloca parte dessa conta sem exigir instalação industrial."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Há organização nomeada, finalidade explícita e certificação cruzada em fonte institucional e reportagem. Tecnologia social com endereço, não slogan verde."
+      }
+    ]
+  },
+  "AV-0005": {
+    "imagem": "assets/casos/AV-0005.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "A Cooperativa Mista de Trabalho Casa do Cerrado Ceres (GO) desenvolveu kits de bomba solar para irrigação praticada por mulheres agricultoras. A tecnologia foi vencedora certificada do Prêmio Fundação Banco do Brasil de Tecnologia Social."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "No Cerrado goiano, irrigar horta sem rede elétrica estável ou sem diesel barato limita a produção. O kit solar desloca o bombeamento para um arranjo que a cooperativa consegue replicar."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Cooperativa, município e público (mulheres rurais) estão especificados. Duas fontes independentes sustentam a certificação."
+      }
+    ]
+  },
+  "AV-0006": {
+    "imagem": "assets/casos/AV-0006.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "O Instituto Ecomar (RJ), em iniciativa idealizada por Beatriz Mattiuzzo, trabalha com comunidades costeiras e caiçaras reutilizando redes de pesca descartadas. A proposta gera renda e retira nylon do mar. Foi certificada como tecnologia social pela Fundação Banco do Brasil."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "Rede fantasma e descarte na costa matam fauna e não entram sozinhos na cadeia formal de reciclagem. O arranjo liga coleta comunitária a um uso posterior da malha."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Organização, autora, território e certificação estão nomeados. Economia circular com comunidade específica, não campanha genérica contra plástico."
+      }
+    ]
+  },
+  "AV-0007": {
+    "imagem": "assets/casos/AV-0007.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "O Programa Fica Vivo foi implementado em 2002 no Morro das Pedras, Belo Horizonte, combinando articulação policial e ações sociais. Estudos acadêmicos sobre 2002–2006 registraram redução de 69% no número médio de homicídios nos primeiros seis meses. Nas expansões para outras favelas da cidade, os resultados foram mais modestos."
+      },
+      {
+        "titulo": "O que o rastro não esconde",
+        "texto": "O próprio corpus acadêmico registra o limite da réplica. Entrar no arquivo não exige final triunfal: exige número, recorte temporal e lugar."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Artigo e tese de doutorado independentes documentam o impacto inicial. É contribuição coletiva mensurável — e contestável nas expansões — com método, não com slogan de segurança."
+      }
+    ]
+  },
+  "AV-0008": {
+    "imagem": "assets/casos/AV-0008.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "A Articulação Semiárido Brasileiro (ASA) constrói cisternas de placas de cimento para guardar água da chuva junto às casas rurais. Em duas décadas, mais de 1,2 milhão de cisternas foram erguidas, com cerca de 5 milhões de pessoas beneficiadas. Estudo da UFRN (2010) associou as cisternas à permanência de famílias no município de origem, mesmo em seca."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "No semiárido, a falta de água domiciliada empurra deslocamento. A cisterna de placa é um artefato simples, replicável por mutirão, com endereço em nove estados do Nordeste e no norte de Minas."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Escala, território e estudo universitário estão cruzados com o site da ASA. Tecnologia social com duas décadas de rastro — passa no teste dos 20 anos com folga."
+      }
+    ]
+  },
+  "AV-0009": {
+    "imagem": "assets/casos/AV-0009.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "A Rede Brasileira de Bancos de Leite Humano (rBLH) é descrita como a maior e mais complexa rede do tipo no mundo, com mais de 220 unidades em todos os estados. Em 2001, a OMS a reconheceu entre as ações que mais contribuíram para a redução da mortalidade infantil na década de 1990. Em 2020, João Aprígio Guerra de Almeida recebeu o Prêmio Dr. Lee Jong-wook de Saúde Pública da OMS. O modelo foi exportado para mais de 20 países."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "Recém-nascidos vulneráveis dependem de leite humano pasteurizado quando a mãe não pode amamentar. A rede transforma doação em logística de SUS, não em campanha isolada."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Reconhecimento internacional, prêmio nominado e cobertura da Fiocruz/Radis sustentam ev-confirmed. Impacto coletivo com instituição, não autodeclaração."
+      }
+    ]
+  },
+  "AV-0010": {
+    "imagem": "assets/casos/AV-0010.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "A Roda de Capoeira e o Ofício dos Mestres de Capoeira foram reconhecidos pelo Iphan em 2008 (Livros de Registro das Formas de Expressão e dos Saberes). Em 26/11/2014, a Unesco declarou a Roda Patrimônio Cultural Imaterial da Humanidade, reconhecendo a transmissão oral e ritualizada entre mestres e iniciantes, hoje praticada em mais de 160 países."
+      },
+      {
+        "titulo": "Como o saber se transmite",
+        "texto": "A roda é o dispositivo: canto, instrumento e jogo ensinam o ofício sem separar corpo de memória. O reconhecimento internacional descreve esse método; não o substitui."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Duas camadas institucionais (Iphan e Unesco) com datas. Transmissão de conhecimento afro-brasileiro com rastro público, não folclore de cartão-postal."
+      }
+    ]
+  },
+  "AV-0011": {
+    "imagem": "assets/casos/AV-0011.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "Criado em 1998 no Conjunto Palmeiras, Fortaleza (CE), o Banco Palmas foi o primeiro banco comunitário de desenvolvimento do Brasil. Operava com a moeda social Palma para manter a renda circulando no bairro. Estudo de 2008, contratado pelo Ministério do Trabalho com a UFC, apontou que 90% dos entrevistados relataram melhora na qualidade de vida. A metodologia foi replicada em mais de 50 bancos comunitários em nove estados."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "Dinheiro que entra na periferia e sai no primeiro supermercado do centro não desenvolve o bairro. A moeda local tenta prender o circuito de troca onde as pessoas moram."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Ano, bairro, estudo com universidade e réplica interestadual estão documentados. Contribuição coletiva com método exportável — e com número, não só com lenda de fundação."
+      }
+    ]
+  },
+  "AV-0012": {
+    "imagem": "assets/casos/AV-0012.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "Desde 1984, Ernst Götsch desenvolveu na Fazenda Olhos d'Água, em Piraí do Norte (BA), um sistema agroflorestal sucessional. As fontes registram recuperação de cerca de 410 hectares degradados por corte-e-queima e monocultura de mandioca, com retorno de 14 nascentes e da fauna local. A técnica, chamada agricultura sintrópica, é ensinada em cursos e replicada em outros biomas."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "Solo exaurido por queima e mandioca não “volta sozinho”. O desenho sucessional empilha espécies no tempo — sombreamento, matéria orgânica, água — em vez de input externo permanente."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Lugar, década, hectares e nascentes estão em reportagem e artigo acadêmico. Resolução prática com rastro de campo, não palestra de regeneração."
+      }
+    ]
+  },
+  "AV-0013": {
+    "imagem": "assets/casos/AV-0013.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "No Carnaval de 2026 em São Paulo, catadores das cooperativas Coopamare, Casa do Catador, Cooperpoba e Coopere Centro comercializaram 32,6 toneladas de recicláveis coletados na folia, movimentando mais de R$ 119 mil, integralmente destinados às cooperativas."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "A folia gera pico de residual e, sem organização, o valor fica com intermediário ou no aterro. Aqui o circuito fecha nas cooperativas nomeadas."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Tonelada, real, ano e quatro CNPJs sociais estão em duas reportagens. Contribuição coletiva mensurável num ciclo específico — não “reciclagem é importante”."
+      }
+    ]
+  },
+  "AV-0014": {
+    "imagem": "assets/casos/AV-0014.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "O Movimento Nacional dos Catadores de Materiais Recicláveis (MNCR), organizado há mais de duas décadas, obteve em 2010 a inclusão dos catadores como sujeitos de direitos na Política Nacional de Resíduos Sólidos (Lei 12.305/2010). A lei passou a reconhecer o papel da categoria na gestão de resíduos e a prever diretrizes de inclusão social e econômica."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "Sem sujeito de direito, o catador permanece mão de obra informal da cidade. A lei não resolve renda sozinha; muda o chão jurídico da reivindicação."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Movimento, ano e número da lei estão cruzados com site do MNCR e reportagem da Agência Brasil. Impacto coletivo com diploma legal, não só com marcha."
+      }
+    ]
+  },
+  "AV-0015": {
+    "imagem": "assets/casos/AV-0015.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "Vitalino Pereira dos Santos (1909–1963), o Mestre Vitalino, mudou-se em 1948 para o Alto do Moura, em Caruaru (PE). A notoriedade nacional a partir de 1947 atraiu famílias inteiras para a cerâmica figurativa. O bairro reúne hoje cerca de 200 artesãos e é reconhecido pela Unesco como um dos maiores centros de arte figurativa das Américas. A técnica segue com discípulos, inclusive o filho do mestre."
+      },
+      {
+        "titulo": "Como o saber se transmite",
+        "texto": "O ofício não ficou no ateliê de um gênio isolado: o povoado virou escola aberta de barro. Figuras de vaqueiro, lambe-sujo e cotidiano nordestino são o currículo."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Datas de vida, mudança, escala do bairro e reconhecimento Unesco estão em enciclopédia e reportagem. Transmissão de ofício com endereço — Alto do Moura — ainda habitado."
+      }
+    ]
+  },
+  "AV-0016": {
+    "imagem": "assets/casos/AV-0016.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "A Reserva Extrativista Chico Mendes, em Xapuri (AC), foi criada em 1990, um ano e meio após o assassinato do líder seringueiro. Foi o primeiro modelo brasileiro de conservação por populações tradicionais: manejo de recursos sem expulsão. Estudos de 2018–2023 registram desmatamento acima do limite de 10% do plano de manejo, atribuído em parte à pecuária de moradores."
+      },
+      {
+        "titulo": "Leitura em separado",
+        "texto": "A tensão entre o modelo original (extrativismo viável sem derrubada) e a pressão pecuária atual não está reconciliada nas fontes. Os dois lados têm apoio documental — por isso a ficha é ev-contested, não um veredito."
+      },
+      {
+        "titulo": "Lacuna nomeada",
+        "texto": "Falta cruzar, no mesmo recorte, o desmatamento por seringal (MapBiomas, 1988–2023) com a avaliação socioeconômica das famílias extrativistas. Sem esse cruzamento, qualquer síntese única seria inferência."
+      }
+    ]
+  },
+  "AV-0017": {
+    "imagem": "assets/casos/AV-0017.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "O psiquiatra Adalberto Barreto sistematizou a Terapia Comunitária Integrativa em Fortaleza (CE), a partir de atendimento na favela do Pirambu. A Agência Brasil (04/12/2018) registra a origem no Ceará, o vínculo comunitário como método e a inclusão da prática nas Práticas Integrativas Complementares do SUS em 2017 (Portaria 849, de 27/03/2017). A ABRATECOM difunde a metodologia; a Fundação Banco do Brasil a certificou como tecnologia social."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "Sofrimento psíquico em território pobre raramente espera consultório. A roda de escuta tenta um dispositivo grupal, barato e repetível, agora com rastro no SUS e em veículo jornalístico estatal independente do comunicado da FBB."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Duas fontes independentes: o comunicado da FBB e a reportagem da Agência Brasil. Nome, cidade, portaria ministerial e instituição de difusão estão cruzados. Não é um relato motivacional sobre acolhimento."
+      }
+    ]
+  },
+  "AV-0018": {
+    "imagem": "assets/casos/AV-0018.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "O Cinema Nosso, instituição sociocultural com sede na Lapa (Rio de Janeiro), declara-se constituído a partir da experiência do filme Cidade de Deus. A página institucional “Quem somos” registra atuação desde 2000, formação de jovens de favelas e periferias em audiovisual, e mais de 30 mil jovens impactados. A Fundação Banco do Brasil certificou a metodologia como tecnologia social. A ficha Transforma da FBB não conta como segunda fonte: é a mesma instituição do anúncio de prêmio."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "Acesso a linguagem audiovisual costuma ser de oficina pontual. A ficha registra um método com nome de organização, endereço e recorte de origem — não um festival."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Duas fontes independentes: o comunicado da FBB e o site da própria organização. Instituição, cidade e recorte de público estão nomeados. Página de prêmio da mesma fundação não foi usada como corroboração."
+      }
+    ]
+  },
+  "AV-0019": {
+    "imagem": "assets/casos/AV-0019.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "O Instituto Muhda, no Ribeirão da Ilha (Florianópolis), desenvolveu a Mandala Tintorial: cultivo de espécies tintoriais — jenipapo, urucum, erva-mate, entre outras — em diálogo com comunidades Guarani M'bya. O Blog Ecooar (24/06/2024) registra a premiação pela Fundação Banco do Brasil em cerimônia de 21/06/2024, com recurso de R$ 500 mil para reaplicação."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "Corante industrial contamina efluente. Aqui o protocolo tem instituto, bairro, povos nomeados e data de premiação — não um slogan de moda sustentável."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Duas fontes independentes: o comunicado da FBB e a reportagem do Ecooar. A página institucional do instituto (institutomuhda.org) existe, mas a corroboração usada para ev-confirmed é o veículo, não o site próprio."
+      }
+    ]
+  },
+  "AV-0020": {
+    "imagem": "assets/casos/AV-0020.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "O povo Paumari pratica manejo sustentável de pirarucu nas Terras Indígenas Lago Manissuã, Lago Paricá e Cuniuá, no rio Tapauá (Amazonas), com apoio técnico da Operação Amazônia Nativa (OPAN). O Observatório BR-319 registra certificação da Fundação Banco do Brasil desde 2015 e premiação na 12ª edição do Prêmio Fundação BB. A sede da OPAN em Cuiabá (MT) havia sido confundida, na ficha anterior, com o território do manejo."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "Pesca predatória esvazia rio e acordo comunitário. Aqui há povo, três TIs, rio, espécie-alvo e organização de apoio — o mínimo para não virar “sabedoria indígena” genérica."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Duas fontes independentes: o comunicado da FBB e o Observatório BR-319. A correção de região (AM, não MT) é factual, não interpretativa. PDF da OPAN sobre a gestão territorial no Tapauá existe como rastro adicional, mas não foi usado como segunda fonte porque a OPAN é parte do próprio caso."
+      }
+    ]
+  },
+  "AV-0021": {
+    "imagem": "assets/casos/AV-0021.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "A Cooperativa Central Justa Trama integra cooperativas de várias regiões do Brasil numa cadeia têxtil solidária: do algodão agroecológico à confecção, sem intermediário externo à economia solidária. Foi reconhecida como tecnologia social pela Fundação Banco do Brasil em 2019."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "Algodão agroecológico perde valor quando o fio e a costura saem da rede. A Justa Trama tenta fechar o circuito entre quem planta, quem fia e quem confecciona."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Duas fontes institucionais de 2019 sustentam a certificação. Cadeia multiestadual com nome, não campanha de algodão sustentável."
+      }
+    ]
+  },
+  "AV-0022": {
+    "imagem": "assets/casos/AV-0022.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "O Sistema Agroflorestal de Tomé-Açu (SAFTA) foi desenvolvido no Pará por agricultores, em grande parte descendentes da imigração japonesa de 1929, após o colapso da monocultura de pimenta-do-reino na década de 1970. A Prefeitura de Tomé-Açu documenta o arranjo com a Cooperativa Agrícola Mista de Tomé-Açu (CAMTA): consórcio de cacau, açaí, cupuaçu, pimenta-do-reino e espécies florestais nativas. A cobertura do Jornal de Brasília sobre o Prêmio Fundação Banco do Brasil o lista como tecnologia social da Amazônia."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "Monocultura amazônica esgota solo e mercado. O consórcio com cooperativa nomeada e data de origem do colapso da pimenta é o gesto concreto — não um slogan de agrofloresta."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Duas fontes independentes: a reportagem de anúncio do prêmio e a página institucional da prefeitura. Publicação da Embrapa sobre a evolução dos SAFs dos cooperados nipo-paraenses da CAMTA existe como rastro acadêmico adicional."
+      }
+    ]
+  }
+}

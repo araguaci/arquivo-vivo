@@ -259,29 +259,29 @@
       "id": "AV-0017",
       "trilha": 2,
       "titulo": "Terapia Comunitária Integrativa — Fortaleza",
-      "resumo": "Metodologia de escuta coletiva e apoio psicossocial em grupo, sistematizada pela Associação Brasileira de Terapia Comunitária Integrativa (Fortaleza, CE) e certificada como tecnologia social pela Fundação Banco do Brasil.",
-      "evidencia": "ev-alleged",
+      "resumo": "Metodologia de escuta coletiva e apoio psicossocial em grupo, sistematizada em Fortaleza (CE) pelo psiquiatra Adalberto Barreto a partir de atendimento na favela do Pirambu. Em 2017 foi incluída nas Práticas Integrativas Complementares do SUS (Portaria 849/2017). A ABRATECOM a difunde; a Fundação Banco do Brasil a certificou como tecnologia social.",
+      "evidencia": "ev-confirmed",
       "fontes": [
-        {"tipo": "site institucional", "url": "https://transforma.fbb.org.br/blog/conheca-os-ganhadores-do-premio-fundacao-bb-de-tecnologia-social", "data": "2023-01-01"}
+        {"tipo": "site institucional", "url": "https://transforma.fbb.org.br/blog/conheca-os-ganhadores-do-premio-fundacao-bb-de-tecnologia-social", "data": "2023-01-01"},
+        {"tipo": "reportagem", "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2018-12/terapia-criada-no-ce-prioriza-vinculo-comunitario-e-vivencia-pessoal", "data": "2018-12-04"}
       ],
       "regiao": "Fortaleza, CE",
-      "data_evento": "2023",
-      "lacuna_investigativa": "Apenas uma fonte primária (comunicado oficial da FBB, replicado por veículos) foi localizada até o momento — corroboração independente pendente antes de promover a ev-confirmed.",
-      "tags": ["saúde mental comunitária", "tecnologia social"],
+      "data_evento": "2017-03-27",
+      "tags": ["saúde mental comunitária", "tecnologia social", "sus"],
       "genericizacao_check": true
     },
     {
       "id": "AV-0018",
       "trilha": 2,
       "titulo": "Metodologia Cinema Nosso — educação audiovisual comunitária",
-      "resumo": "Metodologia de educação audiovisual voltada a jovens de comunidades do Rio de Janeiro, desenvolvida pela organização Cinema Nosso e certificada como tecnologia social pela Fundação Banco do Brasil.",
-      "evidencia": "ev-alleged",
+      "resumo": "Instituição sociocultural do Rio de Janeiro, com sede na Lapa, constituída a partir da experiência do filme Cidade de Deus. Desde 2000 forma jovens de favelas e periferias em audiovisual; o site institucional registra mais de 30 mil jovens impactados. A metodologia foi certificada como tecnologia social pela Fundação Banco do Brasil.",
+      "evidencia": "ev-confirmed",
       "fontes": [
-        {"tipo": "site institucional", "url": "https://transforma.fbb.org.br/blog/conheca-os-ganhadores-do-premio-fundacao-bb-de-tecnologia-social", "data": "2023-01-01"}
+        {"tipo": "site institucional", "url": "https://transforma.fbb.org.br/blog/conheca-os-ganhadores-do-premio-fundacao-bb-de-tecnologia-social", "data": "2023-01-01"},
+        {"tipo": "site institucional", "url": "https://cinemanosso.org.br/quem-somos/", "data": "2024-05-01"}
       ],
       "regiao": "Rio de Janeiro, RJ",
-      "data_evento": "2023",
-      "lacuna_investigativa": "Apenas uma fonte primária localizada até o momento — corroboração independente pendente.",
+      "data_evento": "2000",
       "tags": ["educação audiovisual", "juventude", "tecnologia social"],
       "genericizacao_check": true
     },
@@ -289,30 +289,30 @@
       "id": "AV-0019",
       "trilha": 1,
       "titulo": "Mandala Tintorial — tingimento natural (Instituto Muhda)",
-      "resumo": "Técnica de tingimento têxtil natural desenvolvida pelo Instituto Muhda (Florianópolis, SC), certificada como tecnologia social pela Fundação Banco do Brasil, como alternativa a corantes sintéticos poluentes.",
-      "evidencia": "ev-alleged",
+      "resumo": "Tecnologia social do Instituto Muhda (Ribeirão da Ilha, Florianópolis) que integra cultivo de espécies tintoriais — jenipapo, urucum, erva-mate, entre outras — com comunidades Guarani M'bya. Premiada pela Fundação Banco do Brasil em cerimônia de 21/06/2024, com recurso de R$ 500 mil para reaplicação, segundo o Blog Ecooar.",
+      "evidencia": "ev-confirmed",
       "fontes": [
-        {"tipo": "site institucional", "url": "https://transforma.fbb.org.br/blog/conheca-os-ganhadores-do-premio-fundacao-bb-de-tecnologia-social", "data": "2023-01-01"}
+        {"tipo": "site institucional", "url": "https://transforma.fbb.org.br/blog/conheca-os-ganhadores-do-premio-fundacao-bb-de-tecnologia-social", "data": "2023-01-01"},
+        {"tipo": "reportagem", "url": "https://blog.ecooar.com/mandala-tintorial-instituto-muhda-e-premiado/", "data": "2024-06-24"}
       ],
       "regiao": "Florianópolis, SC",
-      "data_evento": "2023",
-      "lacuna_investigativa": "Apenas uma fonte primária localizada até o momento — corroboração independente pendente.",
-      "tags": ["tingimento natural", "têxtil sustentável", "tecnologia social"],
+      "data_evento": "2024-06-21",
+      "tags": ["tingimento natural", "têxtil sustentável", "tecnologia social", "guarani"],
       "genericizacao_check": true
     },
     {
       "id": "AV-0020",
       "trilha": 1,
-      "titulo": "Manejo Pesqueiro Paumari — Amazônia (MT)",
-      "resumo": "Sistema de manejo pesqueiro sustentável praticado pelo povo indígena Paumari, sistematizado pela organização Operação Amazônia Nativa (MT) e certificado como tecnologia social pela Fundação Banco do Brasil.",
-      "evidencia": "ev-alleged",
+      "titulo": "Manejo Pesqueiro Paumari — rio Tapauá (AM)",
+      "resumo": "Manejo sustentável de pirarucu do povo Paumari nas Terras Indígenas Lago Manissuã, Lago Paricá e Cuniuá, rio Tapauá (AM), com apoio técnico da Operação Amazônia Nativa (OPAN, sede em Cuiabá). Certificado pela Fundação Banco do Brasil desde 2015 e premiado na 12ª edição do Prêmio Fundação BB.",
+      "evidencia": "ev-confirmed",
       "fontes": [
-        {"tipo": "site institucional", "url": "https://transforma.fbb.org.br/blog/conheca-os-ganhadores-do-premio-fundacao-bb-de-tecnologia-social", "data": "2023-01-01"}
+        {"tipo": "site institucional", "url": "https://transforma.fbb.org.br/blog/conheca-os-ganhadores-do-premio-fundacao-bb-de-tecnologia-social", "data": "2023-01-01"},
+        {"tipo": "reportagem", "url": "https://observatoriobr319.org.br/manejo-pesqueiro-do-povo-paumari-ganha-premio-nacional/", "data": "2024-08-01"}
       ],
-      "regiao": "Mato Grosso (povo Paumari)",
-      "data_evento": "2023",
-      "lacuna_investigativa": "Apenas uma fonte primária localizada até o momento — corroboração independente pendente.",
-      "tags": ["manejo pesqueiro", "povos indígenas", "amazônia"],
+      "regiao": "Rio Tapauá / TIs Lago Manissuã, Lago Paricá e Cuniuá, AM",
+      "data_evento": "2015",
+      "tags": ["manejo pesqueiro", "povos indígenas", "amazônia", "pirarucu"],
       "genericizacao_check": true
     },
     {
@@ -334,15 +334,15 @@
       "id": "AV-0022",
       "trilha": 1,
       "titulo": "Sistema Agroflorestal de Tomé-Açu (SAFTA)",
-      "resumo": "Sistema agroflorestal praticado por produtores rurais de Tomé-Açu (PA), combinando espécies nativas e cultivos comerciais em manejo consorciado, reconhecido como tecnologia social da Amazônia.",
-      "evidencia": "ev-alleged",
+      "resumo": "Sistema agroflorestal desenvolvido em Tomé-Açu (PA) por agricultores, em grande parte descendentes da imigração japonesa de 1929, após o colapso da monocultura de pimenta-do-reino na década de 1970. Organizado com a Cooperativa Agrícola Mista de Tomé-Açu (CAMTA), consorcia cacau, açaí, cupuaçu, pimenta-do-reino e espécies florestais nativas. A Prefeitura de Tomé-Açu o documenta como tecnologia social da Amazônia.",
+      "evidencia": "ev-confirmed",
       "fontes": [
-        {"tipo": "reportagem", "url": "https://jornaldebrasilia.com.br/blogs-e-colunas/analice-nicolau/vencedores-da-12a-edicao-do-premio-fundacao-banco-do-brasil-de-tecnologia-social-serao-anunciados-nesta-sexta/", "data": "2023-01-01"}
+        {"tipo": "reportagem", "url": "https://jornaldebrasilia.com.br/blogs-e-colunas/analice-nicolau/vencedores-da-12a-edicao-do-premio-fundacao-banco-do-brasil-de-tecnologia-social-serao-anunciados-nesta-sexta/", "data": "2023-01-01"},
+        {"tipo": "site institucional", "url": "https://www.prefeituratomeacu.pa.gov.br/safta", "data": "2024-01-01"}
       ],
       "regiao": "Tomé-Açu, PA",
-      "data_evento": "2023",
-      "lacuna_investigativa": "Apenas uma fonte primária localizada até o momento — corroboração independente pendente.",
-      "tags": ["agrofloresta", "amazônia", "tecnologia social"],
+      "data_evento": "1970",
+      "tags": ["agrofloresta", "amazônia", "tecnologia social", "camta"],
       "genericizacao_check": true
     }
   ]

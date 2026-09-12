@@ -65,6 +65,22 @@
     "genericizacao_check": {
       "type": "boolean",
       "description": "True only if the entry passed the specificity test: has verifiable source, is not generic motivational content, and would plausibly still matter in 20 years"
+    },
+    "imagem": {
+      "type": "string",
+      "description": "Path to the case visual used in catalog card and detail reading"
+    },
+    "secoes": {
+      "type": "array",
+      "description": "Structured detalhamento for the reading view. Factual only; interpretive notes stay in analise.",
+      "items": {
+        "type": "object",
+        "required": ["titulo", "texto"],
+        "properties": {
+          "titulo": { "type": "string" },
+          "texto": { "type": "string" }
+        }
+      }
     }
   }
 }

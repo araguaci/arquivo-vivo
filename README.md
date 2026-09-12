@@ -50,7 +50,7 @@ Mesma disciplina: **fonte auditável, hipótese ≠ fato**, deploy público rast
 | **O Dragão e a Onça** | [odragaoeaonca.vercel.app](https://odragaoeaonca.vercel.app/) | Série Brasil × China |
 | **Abuso Supremo** | [abusosupremo.vercel.app](https://abusosupremo.vercel.app/) | Cronologia de censura 2019–2025 |
 
-Nav canônica (monorepo): `sabor-brazil/data/ecosystem.json`. Snippet pronto para inclusão: [`ecosystem-entry-snippet.json`](./ecosystem-entry-snippet.json).  
+Nav canônica (monorepo): `sabor-brazil/data/ecosystem.json` · espelho local: [`data/ecosystem.json`](./data/ecosystem.json).  
 Eixo Sentinel: [`SENTINEL-EIXO-SELVA.md`](https://github.com/araguaci/ai-projects/blob/main/docs/estrategia/SENTINEL-EIXO-SELVA.md) · meta-hub: [ecosistema-selva.vercel.app](https://ecosistema-selva.vercel.app/).
 
 ## 🎯 Visão Geral
@@ -87,7 +87,7 @@ Três trilhas, um schema (`1.0.0`): `ev-confirmed` exige duas fontes independent
 ## 🚀 Roadmap de Execução
 - [x] **Fase 1: MVP Estrutural** — schema, metodologia, corpus inicial, dashboard e deploy Vercel
 - [x] **Fase 2: Ficha e evidência** — imagens, `details.json`, protocolo 6/6, PWA; cinco `ev-alleged` promovidos a `ev-confirmed` com segunda fonte independente
-- [ ] **Fase 3: Ecossistema** — registrar em `sabor-brazil/data/ecosystem.json` e espelhos SELVA
+- [x] **Fase 3: Ecossistema** — registrado em `sabor-brazil/data/ecosystem.json` e espelhos SELVA
 - [ ] **Fase 4: Corpus** — sourcing `AV-0023`+, resolver a lacuna de `AV-0016` (`ev-contested`), formulário público de submissão com curadoria
 
 ## 🛠️ Instruções de Setup
@@ -111,7 +111,8 @@ arquivo-vivo/
 ├── data/
 │   ├── catalog.json        # corpus (entradas[])
 │   ├── details.json        # detalhamento por ID
-│   └── schema.json         # JSON Schema Draft 2020-12
+│   ├── schema.json         # JSON Schema Draft 2020-12
+│   └── ecosystem.json      # espelho SELVA (current = este hub)
 ├── METHODOLOGY.md
 ├── ecosystem-entry-snippet.json
 ├── index.html

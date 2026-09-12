@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Arquivo Vivo — Entry Schema",
+  "description": "Schema for entries in the Arquivo Vivo da Sabedoria Prática catalog. Part of Eixo SELVA.",
+  "type": "object",
+  "required": ["id", "trilha", "titulo", "resumo", "evidencia", "fontes", "data_evento"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^AV-[0-9]{4}$",
+      "description": "Sequential ID, never reused, format AV-NNNN"
+    },
+    "trilha": {
+      "type": "integer",
+      "enum": [1, 2, 3],
+      "description": "1=Resolução Prática, 2=Transmissão de Conhecimento, 3=Contribuição Coletiva Mensurável"
+    },
+    "titulo": {
+      "type": "string",
+      "maxLength": 140
+    },
+    "resumo": {
+      "type": "string",
+      "description": "Factual summary, kept separate from any interpretive analysis"
+    },
+    "analise": {
+      "type": "string",
+      "description": "Optional interpretive layer. MUST be ev-inference and MUST NOT be mixed into resumo."
+    },
+    "evidencia": {
+      "type": "string",
+      "enum": ["ev-confirmed", "ev-alleged", "ev-contested", "ev-inference"],
+      "description": "ev-confirmed requires 2+ independent sources. Single-source items are ev-alleged, never promoted without corroboration."
+    },
+    "fontes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["tipo", "url", "data"],
+        "properties": {
+          "tipo": {"type": "string", "description": "e.g. reportagem, registro público, testemunho, documento oficial"},
+          "url": {"type": "string"},
+          "data": {"type": "string", "format": "date"}
+        }
+      },
+      "description": "R1 rule (borrowed from JusMonitor governance): no ev-confirmed entry may ship with an empty fontes[]."
+    },
+    "regiao": {
+      "type": "string",
+      "description": "Município/UF when known"
+    },
+    "data_evento": {
+      "type": "string",
+      "format": "date"
+    },
+    "lacuna_investigativa": {
+      "type": "string",
+      "description": "Precisely named unknown, if any — never implies suspicion, only states what remains unverified"
+    },
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "genericizacao_check": {
+      "type": "boolean",
+      "description": "True only if the entry passed the specificity test: has verifiable source, is not generic motivational content, and would plausibly still matter in 20 years"
+    }
+  }
+}

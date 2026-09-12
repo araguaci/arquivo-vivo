@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arquivo Vivo — Sabedoria Prática</title>
+  <meta name="description" content="Catálogo aberto e verificável de casos brasileiros de resolução prática, transmissão de conhecimento e contribuição coletiva. Eixo SELVA. CC0 1.0.">
+  <meta name="theme-color" content="#050505">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" href="./assets/arquivo-vivo-icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="./assets/arquivo-vivo-icon.png">
+  <link rel="canonical" href="https://arquivo-vivo.artesdosul.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Artes do Sul">
+  <meta property="og:url" content="https://arquivo-vivo.artesdosul.com/">
+  <meta property="og:title" content="Arquivo Vivo da Sabedoria Prática">
+  <meta property="og:description" content="Corpus evidencial de casos brasileiros — valor documentado, não autodeclarado. Eixo SELVA. CC0 1.0.">
+  <meta property="og:image" content="https://arquivo-vivo.artesdosul.com/assets/arquivo-vivo-hero.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Arquivo Vivo da Sabedoria Prática">
+  <meta name="twitter:description" content="Catálogo aberto de resolução prática, ofício e contribuição coletiva no Brasil.">
+  <meta name="twitter:image" content="https://arquivo-vivo.artesdosul.com/assets/arquivo-vivo-hero.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #050505;
+      --bg-card: rgba(20, 20, 20, 0.7);
+      --accent-orange: #ff6b35;
+      --accent-cyan: #00d9ff;
+      --accent-green: #10b981;
+      --glass-blur: blur(12px);
+      --border: rgba(255, 255, 255, 0.08);
+      --text: #f3f1ec;
+      --muted: #8b8d8f;
+      --panel: #101010;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg-primary);
+      color: var(--text);
+      font-family: "Bricolage Grotesque", sans-serif;
+      line-height: 1.55;
+      min-height: 100vh;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 40;
+      opacity: 0.045;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+    a { color: var(--accent-cyan); }
+    button, input { font: inherit; }
+    .mono { font-family: "JetBrains Mono", monospace; }
+    .skip {
+      position: absolute;
+      left: -999px;
+      top: 8px;
+      background: var(--accent-orange);
+      color: #111;
+      padding: 8px 12px;
+      z-index: 80;
+    }
+    .skip:focus { left: 8px; }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding: 14px 28px;
+      background: rgba(5, 5, 5, 0.78);
+      backdrop-filter: var(--glass-blur);
+      border-bottom: 1px solid var(--border);
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--text);
+    }
+    .brand img { width: 28px; height: 28px; border-radius: 6px; }
+    .brand span {
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      font-size: 0.92rem;
+    }
+    nav { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.72rem;
+      letter-spacing: 0.04em;
+    }
+    nav a:hover, nav a:focus { color: var(--accent-cyan); }
+    .score-pill {
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 6px 12px;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.68rem;
+    }
+    .score-pill strong { color: var(--accent-orange); font-weight: 600; }
+    .hero {
+      position: relative;
+      min-height: 78vh;
+      display: grid;
+      place-items: end start;
+      padding: 72px 28px 56px;
+      overflow: hidden;
+    }
+    .hero-visual {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(180deg, rgba(5,5,5,0.15) 0%, rgba(5,5,5,0.35) 42%, #050505 96%),
+        url("./assets/arquivo-vivo-hero.png") center/cover no-repeat;
+    }
+    .hero-content { position: relative; z-index: 2; max-width: 860px; }
+    .badge-float {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,107,53,0.35);
+      background: rgba(5,5,5,0.55);
+      backdrop-filter: var(--glass-blur);
+      color: var(--accent-orange);
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.04em;
+      margin-bottom: 18px;
+    }
+    .badge-float i {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent-green);
+      box-shadow: 0 0 10px var(--accent-green);
+    }
+    .hero h1 {
+      font-size: clamp(2.4rem, 6vw, 5.2rem);
+      line-height: 0.92;
+      letter-spacing: -0.04em;
+      font-weight: 800;
+      max-width: 14ch;
+      margin-bottom: 18px;
+    }
+    .hero p {
+      color: #c9c6bf;
+      font-size: 1.08rem;
+      max-width: 58ch;
+    }
+    .hero p em { color: var(--accent-cyan); font-style: normal; font-family: "JetBrains Mono", monospace; font-size: 0.86em; }
+    main { max-width: 1180px; margin: 0 auto; padding: 0 24px 96px; }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin: -28px 0 36px;
+      position: relative;
+      z-index: 3;
+    }
+    .stat {
+      background: rgba(18, 18, 18, 0.92);
+      backdrop-filter: var(--glass-blur);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 14px;
+      padding: 16px 18px;
+    }
+    .stat b {
+      display: block;
+      font-size: 1.6rem;
+      letter-spacing: -0.04em;
+      color: var(--accent-cyan);
+    }
+    .stat span {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.68rem;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+    }
+    .toolbar {
+      display: grid;
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+    .search-wrap { position: relative; }
+    .search-wrap input {
+      width: 100%;
+      background: #0d0d0d;
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 12px;
+      padding: 14px 16px 14px 42px;
+      outline: none;
+    }
+    .search-wrap input:focus { border-color: rgba(0,217,255,0.45); }
+    .search-wrap::before {
+      content: "⌕";
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip {
+      background: transparent;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 7px 12px;
+      cursor: pointer;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.68rem;
+    }
+    .chip.is-on, .chip:hover { color: var(--text); border-color: rgba(255,107,53,0.55); }
+    .chip.is-on { background: rgba(255,107,53,0.12); color: var(--accent-orange); }
+    .progress {
+      height: 4px;
+      background: #1a1a1a;
+      border-radius: 99px;
+      overflow: hidden;
+    }
+    .progress > i {
+      display: block;
+      height: 100%;
+      width: 0;
+      background: linear-gradient(90deg, var(--accent-orange), var(--accent-cyan));
+      transition: width .35s ease;
+    }
+    .trilhas {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin: 10px 0 28px;
+    }
+    .trilha-card {
+      text-align: left;
+      background: var(--bg-card);
+      backdrop-filter: var(--glass-blur);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+      cursor: pointer;
+      color: inherit;
+    }
+    .trilha-card:hover, .trilha-card.is-on { border-color: rgba(0,217,255,0.35); }
+    .trilha-card small {
+      font-family: "JetBrains Mono", monospace;
+      color: var(--accent-orange);
+      font-size: 0.68rem;
+    }
+    .trilha-card h3 { font-size: 1.05rem; margin: 8px 0 6px; }
+    .trilha-card p { color: var(--muted); font-size: 0.9rem; }
+    #entries { display: grid; gap: 12px; }
+    .entry {
+      background: var(--bg-card);
+      backdrop-filter: var(--glass-blur);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent-orange);
+      border-radius: 14px;
+      padding: 18px 18px 16px;
+    }
+    .entry[data-trilha="2"] { border-left-color: var(--accent-cyan); }
+    .entry[data-trilha="3"] { border-left-color: var(--accent-green); }
+    .entry.is-done { outline: 1px solid rgba(16,185,129,0.28); }
+    .entry-top { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+    .badge {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.64rem;
+      padding: 3px 7px;
+      border-radius: 4px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+    .badge.ev-confirmed { color: var(--accent-green); border-color: rgba(16,185,129,0.4); }
+    .badge.ev-alleged { color: var(--accent-orange); border-color: rgba(255,107,53,0.4); }
+    .badge.ev-contested { color: var(--accent-cyan); border-color: rgba(0,217,255,0.4); }
+    .entry h3 { font-size: 1.18rem; letter-spacing: -0.02em; margin-bottom: 8px; }
+    .entry .resumo { color: #d4d1ca; font-size: 0.96rem; }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 12px 0;
+      color: var(--muted);
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.68rem;
+    }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+    .tag {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      border-radius: 99px;
+      padding: 3px 8px;
+      font-size: 0.7rem;
+      color: #b7b7b7;
+    }
+    .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .btn {
+      background: #141414;
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 7px 10px;
+      cursor: pointer;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.68rem;
+    }
+    .btn:hover { border-color: var(--accent-cyan); }
+    .btn.primary { border-color: rgba(255,107,53,0.5); color: var(--accent-orange); }
+    .btn.done { border-color: rgba(16,185,129,0.5); color: var(--accent-green); }
+    .note {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      background: rgba(0,217,255,0.06);
+      border: 1px solid rgba(0,217,255,0.16);
+      color: #c9eef5;
+      font-size: 0.86rem;
+    }
+    .empty, .error {
+      text-align: center;
+      padding: 48px 16px;
+      border: 1px dashed var(--border);
+      border-radius: 14px;
+      color: var(--muted);
+    }
+    .protocol {
+      margin-top: 56px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+    }
+    .protocol h2 { font-size: 1.6rem; margin-bottom: 8px; }
+    .protocol > p { color: var(--muted); margin-bottom: 16px; }
+    .check {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px;
+      margin-bottom: 8px;
+      cursor: pointer;
+    }
+    .check input { accent-color: var(--accent-orange); margin-top: 3px; }
+    .check.is-on { border-color: rgba(16,185,129,0.35); }
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 24px 36px;
+      text-align: center;
+      color: var(--muted);
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.75rem;
+    }
+    footer a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+    footer a:hover { color: var(--accent-orange); border-bottom-color: var(--accent-orange); }
+    #top-btn {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,107,53,0.45);
+      background: #111;
+      color: var(--accent-orange);
+      cursor: pointer;
+      display: none;
+      z-index: 20;
+    }
+    .toast {
+      position: fixed;
+      left: 50%;
+      bottom: 22px;
+      transform: translateX(-50%) translateY(12px);
+      background: #111;
+      border: 1px solid rgba(0,217,255,0.35);
+      color: var(--accent-cyan);
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.72rem;
+      padding: 8px 12px;
+      border-radius: 8px;
+      opacity: 0;
+      pointer-events: none;
+      transition: .2s ease;
+      z-index: 50;
+    }
+    .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+    @media (max-width: 840px) {
+      header { padding: 12px 16px; }
+      nav a:nth-child(n+3) { display: none; }
+      .stats, .trilhas { grid-template-columns: 1fr 1fr; }
+      .hero { min-height: 70vh; padding: 56px 16px 40px; }
+    }
+    @media (max-width: 560px) {
+      .stats { grid-template-columns: 1fr 1fr; }
+      .trilhas { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#entries">Ir para entradas</a>
+  <header>
+    <a class="brand" href="#topo">
+      <img src="./assets/arquivo-vivo-icon.png" alt="">
+      <span>ARQUIVO VIVO</span>
+    </a>
+    <nav>
+      <a href="#trilhas">Trilhas</a>
+      <a href="#entries">Entradas</a>
+      <a href="#protocolo">Protocolo</a>
+      <a href="https://github.com/araguaci/arquivo-vivo" target="_blank" rel="noopener">Repo</a>
+      <div class="score-pill" id="score-pill">Lidos <strong>0/0</strong></div>
+    </nav>
+  </header>
+
+  <section class="hero" id="topo">
+    <div class="hero-visual" role="img" aria-label="Arquivo vivo: floresta e dados em luz âmbar e ciano"></div>
+    <div class="hero-content">
+      <div class="badge-float"><i></i> Validado no Eixo SELVA · 22 casos sourceados · CC0 1.0</div>
+      <h1>Sabedoria prática com rastro.</h1>
+      <p>Catálogo aberto de casos brasileiros de resolução, ofício e contribuição coletiva — valor documentado, não autodeclarado. Parte do <em>Eixo SELVA</em>.</p>
+    </div>
+  </section>
+
+  <main>
+    <section class="stats" aria-label="Indicadores do corpus">
+      <div class="stat"><b id="stat-total">0</b><span>CASOS</span></div>
+      <div class="stat"><b id="stat-confirmed">0</b><span>EV-CONFIRMED</span></div>
+      <div class="stat"><b id="stat-open">0</b><span>LACUNAS</span></div>
+      <div class="stat"><b id="stat-score">0%</b><span>LEITURA</span></div>
+    </section>
+
+    <section class="toolbar" id="busca">
+      <div class="search-wrap">
+        <input id="q" type="search" placeholder="Buscar título, região, tag, ID…" autocomplete="off" aria-label="Buscar entradas">
+      </div>
+      <div class="chips" id="trilha-chips">
+        <button class="chip is-on" data-trilha="all">Todas</button>
+        <button class="chip" data-trilha="1">T1 Resolução</button>
+        <button class="chip" data-trilha="2">T2 Transmissão</button>
+        <button class="chip" data-trilha="3">T3 Coletivo</button>
+      </div>
+      <div class="chips" id="ev-chips">
+        <button class="chip is-on" data-ev="all">Qualquer evidência</button>
+        <button class="chip" data-ev="ev-confirmed">confirmed</button>
+        <button class="chip" data-ev="ev-alleged">alleged</button>
+        <button class="chip" data-ev="ev-contested">contested</button>
+      </div>
+      <div class="progress" aria-hidden="true"><i id="progress-bar"></i></div>
+    </section>
+
+    <section class="trilhas" id="trilhas">
+      <button class="trilha-card" data-trilha="1">
+        <small>TRILHA 01</small>
+        <h3>Resolução Prática</h3>
+        <p>Problema concreto resolvido — saúde, trabalho, justiça, comunidade — com rastro verificável.</p>
+      </button>
+      <button class="trilha-card" data-trilha="2">
+        <small>TRILHA 02</small>
+        <h3>Transmissão de Conhecimento</h3>
+        <p>Ofício, método ou saber passado adiante de forma documentável.</p>
+      </button>
+      <button class="trilha-card" data-trilha="3">
+        <small>TRILHA 03</small>
+        <h3>Contribuição Coletiva</h3>
+        <p>Impacto comunitário com evidência auditável, nunca autodeclaração isolada.</p>
+      </button>
+    </section>
+
+    <section id="entries" aria-live="polite"></section>
+
+    <section class="protocol" id="protocolo">
+      <h2>Protocolo de entrada</h2>
+      <p>Marque o que já aplicou. O progresso fica neste aparelho.</p>
+      <label class="check"><input type="checkbox" data-step="fonte"> Fonte verificável e datada — sem boato.</label>
+      <label class="check"><input type="checkbox" data-step="especifico"> Especificidade: não vira conteúdo motivacional genérico.</label>
+      <label class="check"><input type="checkbox" data-step="vinte"> Teste dos 20 anos: ainda importa daqui a duas décadas.</label>
+      <label class="check"><input type="checkbox" data-step="evidencia"> Classificação evidencial aplicada (confirmed / alleged / contested).</label>
+      <label class="check"><input type="checkbox" data-step="r1"> R1: ev-confirmed nunca sai com fontes[] vazio.</label>
+      <label class="check"><input type="checkbox" data-step="analise"> Análise interpretativa isolada do resumo factual.</label>
+    </section>
+  </main>
+
+  <footer>
+    CC0 1.0 · Parte do <a href="https://selva.artesdosul.com/" target="_blank" rel="noopener">Eixo SELVA</a>
+    · dados em <a href="./data/catalog.json">catalog.json</a><br><br>
+    Uma criação <a href="https://artesdosul.com/" target="_blank" rel="noopener">@artesdosul</a>
+  </footer>
+
+  <button id="top-btn" title="Topo" aria-label="Voltar ao topo">↑</button>
+  <div class="toast" id="toast" role="status"></div>
+
+  <script>
+    const STORE_READ = "arquivo_vivo_completed";
+    const STORE_PROTO = "arquivo_vivo_protocol";
+    const TRILHAS = { 1: "Resolução Prática", 2: "Transmissão", 3: "Contribuição Coletiva" };
+    let entries = [];
+    let filterTrilha = "all";
+    let filterEv = "all";
+
+    const $ = (id) => document.getElementById(id);
+    const readList = () => JSON.parse(localStorage.getItem(STORE_READ) || "[]");
+    const protoList = () => JSON.parse(localStorage.getItem(STORE_PROTO) || "[]");
+
+    function toast(msg) {
+      const el = $("toast");
+      el.textContent = msg;
+      el.classList.add("show");
+      setTimeout(() => el.classList.remove("show"), 1600);
+    }
+
+    function updateScoreUI() {
+      const done = readList();
+      const total = entries.length;
+      const pct = total ? Math.round((done.length / total) * 100) : 0;
+      $("score-pill").innerHTML = `Lidos <strong>${done.length}/${total}</strong>`;
+      $("stat-score").textContent = pct + "%";
+      $("progress-bar").style.width = pct + "%";
+    }
+
+    function toggleItem(id) {
+      const done = readList();
+      const next = done.includes(id) ? done.filter((x) => x !== id) : [...done, id];
+      localStorage.setItem(STORE_READ, JSON.stringify(next));
+      updateScoreUI();
+      render();
+    }
+
+    async function copyText(text, ok) {
+      try {
+        if (navigator.clipboard && window.isSecureContext) {
+          await navigator.clipboard.writeText(text);
+          toast(ok);
+          return;
+        }
+        throw new Error("fallback");
+      } catch {
+        const ta = document.createElement("textarea");
+        ta.value = text;
+        ta.setAttribute("readonly", "");
+        ta.style.position = "fixed";
+        ta.style.left = "-9999px";
+        document.body.appendChild(ta);
+        ta.select();
+        const copied = document.execCommand("copy");
+        ta.remove();
+        toast(copied ? ok : "Não foi possível copiar");
+      }
+    }
+
+    function cite(e) {
+      const fontes = (e.fontes || []).map((f) => f.url).join("\n");
+      return `${e.id} — ${e.titulo}\n${e.resumo}\nRegião: ${e.regiao || "—"} · Evento: ${e.data_evento} · ${e.evidencia}\nhttps://arquivo-vivo.artesdosul.com/#${e.id}\n${fontes}`;
+    }
+
+    function matches(e, q) {
+      if (!q) return true;
+      const blob = [e.id, e.titulo, e.resumo, e.regiao, e.evidencia, ...(e.tags || [])].join(" ").toLowerCase();
+      return blob.includes(q);
+    }
+
+    function render() {
+      const q = $("q").value.trim().toLowerCase();
+      const done = readList();
+      const list = entries.filter((e) => {
+        if (filterTrilha !== "all" && String(e.trilha) !== filterTrilha) return false;
+        if (filterEv !== "all" && e.evidencia !== filterEv) return false;
+        return matches(e, q);
+      });
+      const box = $("entries");
+      if (!list.length) {
+        box.innerHTML = `<div class="empty"><p class="mono">Nenhum caso neste recorte.</p></div>`;
+        return;
+      }
+      box.innerHTML = list.map((e) => {
+        const studied = done.includes(e.id);
+        const tags = (e.tags || []).map((t) => `<span class="tag">${t}</span>`).join("");
+        const fontes = (e.fontes || []).map((f) => `<a href="${f.url}" target="_blank" rel="noopener">${f.tipo}</a>`).join(" · ");
+        const lacuna = e.lacuna_investigativa ? `<div class="note"><span class="mono">LACUNA</span> — ${e.lacuna_investigativa}</div>` : "";
+        const analise = e.analise ? `<div class="note"><span class="mono">ANÁLISE</span> — ${e.analise}</div>` : "";
+        return `<article class="entry${studied ? " is-done" : ""}" id="${e.id}" data-trilha="${e.trilha}">
+          <div class="entry-top">
+            <span class="badge ${e.evidencia}">${e.evidencia}</span>
+            <span class="badge mono">${e.id}</span>
+            <span class="badge">${TRILHAS[e.trilha] || "Trilha " + e.trilha}</span>
+          </div>
+          <h3>${e.titulo}</h3>
+          <p class="resumo">${e.resumo}</p>
+          <div class="meta">
+            <span>${e.regiao || "região n/d"}</span>
+            <span>${e.data_evento}</span>
+            <span>${fontes}</span>
+          </div>
+          <div class="tags">${tags}</div>
+          ${lacuna}${analise}
+          <div class="actions">
+            <button class="btn ${studied ? "done" : "primary"}" data-act="toggle" data-id="${e.id}">${studied ? "Lido" : "Marcar lido"}</button>
+            <button class="btn" data-act="cite" data-id="${e.id}">Copiar ficha</button>
+            <button class="btn" data-act="id" data-id="${e.id}">Copiar ID</button>
+            <button class="btn" data-act="json" data-id="${e.id}">Copiar JSON</button>
+          </div>
+        </article>`;
+      }).join("");
+    }
+
+    function setChipGroup(root, attr, value) {
+      root.querySelectorAll(".chip").forEach((c) => c.classList.toggle("is-on", c.dataset[attr] === value));
+    }
+
+    function bindFilters() {
+      $("trilha-chips").addEventListener("click", (ev) => {
+        const btn = ev.target.closest(".chip");
+        if (!btn) return;
+        filterTrilha = btn.dataset.trilha;
+        setChipGroup($("trilha-chips"), "trilha", filterTrilha);
+        document.querySelectorAll(".trilha-card").forEach((c) => c.classList.toggle("is-on", c.dataset.trilha === filterTrilha));
+        render();
+      });
+      $("ev-chips").addEventListener("click", (ev) => {
+        const btn = ev.target.closest(".chip");
+        if (!btn) return;
+        filterEv = btn.dataset.ev;
+        setChipGroup($("ev-chips"), "ev", filterEv);
+        render();
+      });
+      document.querySelectorAll(".trilha-card").forEach((card) => {
+        card.addEventListener("click", () => {
+          filterTrilha = card.dataset.trilha;
+          setChipGroup($("trilha-chips"), "trilha", filterTrilha);
+          document.querySelectorAll(".trilha-card").forEach((c) => c.classList.toggle("is-on", c === card));
+          $("entries").scrollIntoView({ behavior: "smooth" });
+          render();
+        });
+      });
+      $("q").addEventListener("input", render);
+      $("entries").addEventListener("click", (ev) => {
+        const btn = ev.target.closest("[data-act]");
+        if (!btn) return;
+        const item = entries.find((e) => e.id === btn.dataset.id);
+        if (!item) return;
+        if (btn.dataset.act === "toggle") toggleItem(item.id);
+        if (btn.dataset.act === "cite") copyText(cite(item), "Ficha copiada");
+        if (btn.dataset.act === "id") copyText(item.id, "ID copiado");
+        if (btn.dataset.act === "json") copyText(JSON.stringify(item, null, 2), "JSON copiado");
+      });
+    }
+
+    function bindProtocol() {
+      const saved = protoList();
+      document.querySelectorAll("#protocolo input").forEach((input) => {
+        input.checked = saved.includes(input.dataset.step);
+        input.closest(".check").classList.toggle("is-on", input.checked);
+        input.addEventListener("change", () => {
+          const next = protoList();
+          const id = input.dataset.step;
+          const updated = input.checked ? [...new Set([...next, id])] : next.filter((x) => x !== id);
+          localStorage.setItem(STORE_PROTO, JSON.stringify(updated));
+          input.closest(".check").classList.toggle("is-on", input.checked);
+        });
+      });
+    }
+
+    async function loadEntries() {
+      const box = $("entries");
+      try {
+        const res = await fetch("./data/catalog.json");
+        if (!res.ok) throw new Error("catalog");
+        const data = await res.json();
+        entries = data.entradas || [];
+        $("stat-total").textContent = entries.length;
+        $("stat-confirmed").textContent = entries.filter((e) => e.evidencia === "ev-confirmed").length;
+        $("stat-open").textContent = entries.filter((e) => e.lacuna_investigativa).length;
+        const badge = document.querySelector(".badge-float");
+        badge.innerHTML = `<i></i> Validado no Eixo SELVA · ${entries.length} casos sourceados · CC0 1.0`;
+        updateScoreUI();
+        render();
+        const hash = location.hash.slice(1);
+        if (hash && $(hash)) $(hash).scrollIntoView();
+      } catch {
+        box.innerHTML = `<div class="error"><p class="mono">Erro ao carregar catalog.json</p></div>`;
+      }
+    }
+
+    const topBtn = $("top-btn");
+    window.addEventListener("scroll", () => {
+      topBtn.style.display = window.scrollY > 400 ? "block" : "none";
+    });
+    topBtn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+
+    bindFilters();
+    bindProtocol();
+    loadEntries();
+
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("./sw.js").catch(() => {});
+    }
+  </script>
+</body>
+</html>

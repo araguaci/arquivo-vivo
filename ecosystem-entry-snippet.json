@@ -1,0 +1,10 @@
+{
+  "id": "arquivo-vivo",
+  "nome": "Arquivo Vivo da Sabedoria Prática",
+  "url": "https://arquivo-vivo.vercel.app",
+  "repo": "araguaci/arquivo-vivo",
+  "licenca": "CC0 1.0",
+  "descricao": "Catálogo aberto de casos verificáveis de resolução prática, transmissão de conhecimento e contribuição coletiva no Brasil.",
+  "status": "em_construcao",
+  "trilhas": 3
+}

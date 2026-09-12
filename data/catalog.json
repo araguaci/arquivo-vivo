@@ -1,0 +1,349 @@
+{
+  "meta": {
+    "projeto": "Arquivo Vivo da Sabedoria Prática",
+    "ecosistema": "Eixo SELVA",
+    "licenca": "CC0 1.0",
+    "versao_schema": "1.0.0",
+    "ultima_atualizacao": "2026-09-12",
+    "proximo_id_livre": "AV-0023",
+    "trilhas": {
+      "1": "Resolução Prática",
+      "2": "Transmissão de Conhecimento",
+      "3": "Contribuição Coletiva Mensurável"
+    }
+  },
+  "entradas": [
+    {
+      "id": "AV-0001",
+      "trilha": 2,
+      "titulo": "Ofício, Saberes e Práticas das Parteiras Tradicionais do Brasil — Patrimônio Cultural Nacional",
+      "resumo": "Em 09/05/2024, o Conselho Consultivo do Patrimônio Cultural do Iphan reconheceu, por unanimidade, o ofício, os saberes e as práticas das parteiras tradicionais do Brasil como Patrimônio Cultural nacional, inscrito no Livro de Registro dos Saberes. O pedido de registro havia sido protocolado em 2011 pela Associação de Parteiras Tradicionais de Caruaru e Jaboatão dos Guararapes, Grupo Curumim e Instituto Nômades, com base em Inventário Nacional de Referências Culturais realizado em Pernambuco e complementado com pesquisa etnográfica em Amapá, Amazonas, Maranhão e Goiás.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "reportagem", "url": "https://catarinas.info/parteiras-tradicionais-do-brasil-sao-declaradas-patrimonio-cultural-do-pais/", "data": "2024-05-09"},
+        {"tipo": "site institucional", "url": "https://museudaparteira.org.br/troca-de-saberes/oficio-de-parteira-tradicional-e-patrimonio-cultural-do-brasil/", "data": "2024-05-09"}
+      ],
+      "regiao": "Nacional (origem: Pernambuco)",
+      "data_evento": "2024-05-09",
+      "tags": ["parteiras", "saúde tradicional", "iphan", "patrimônio imaterial"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0002",
+      "trilha": 2,
+      "titulo": "Dona Prazeres — primeira parteira tradicional titulada Patrimônio Vivo do Brasil",
+      "resumo": "Maria dos Prazeres de Souza, residente em Jaboatão dos Guararapes (PE), tornou-se em 2018 a primeira parteira tradicional titulada Patrimônio Vivo de Pernambuco e fundou o Museu da Parteira, iniciativa de salvaguarda e transmissão do ofício desenhada pelas próprias parteiras.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://museudaparteira.org.br/troca-de-saberes/parteiras-tradicionais-patrimonio-cultural-e-vivo-do-brasil/", "data": "2024-05-09"},
+        {"tipo": "reportagem", "url": "https://www.luzdecandeeiro.com.br/oficio-saberes-e-praticas-das-parteiras-tradicionais-sao-patrimonio-do-brasil/", "data": "2024-01-01"}
+      ],
+      "regiao": "Jaboatão dos Guararapes, PE",
+      "data_evento": "2018",
+      "tags": ["parteiras", "patrimônio vivo", "pernambuco"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0003",
+      "trilha": 1,
+      "titulo": "Fossa Séptica Biodigestora de Placas — saneamento rural nos Vales do Jequitinhonha e Mucuri",
+      "resumo": "Sistema de tratamento de esgoto desenvolvido pela UFVJM (Grupo de Extensão e Pesquisa em Agricultura Familiar — GEPAF) para comunidades de agricultores familiares sem rede de esgoto nos Vales do Jequitinhonha e Mucuri (MG). Certificado na 12ª edição do Prêmio Fundação Banco do Brasil de Tecnologia Social.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "reportagem", "url": "https://lagosul.com.br/fundacao-banco-do-brasil-anuncia-os-vencedores-do-12-premio-fundacao-bb-de-tecnologia-social/", "data": "2023-01-01"},
+        {"tipo": "site institucional", "url": "https://transforma.fbb.org.br/blog/veja-a-lista-das-tecnologias-sociais-certificadas-da-12a-edicao-do-premio", "data": "2023-01-01"}
+      ],
+      "regiao": "Vales do Jequitinhonha e Mucuri, MG",
+      "data_evento": "2023",
+      "tags": ["saneamento", "agricultura familiar", "tecnologia social"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0004",
+      "trilha": 1,
+      "titulo": "Aquecedor Solar de Baixo Custo — Associação Sociedade do Sol",
+      "resumo": "Tecnologia social de aquecimento solar de baixo custo, desenvolvida pela Associação Sociedade do Sol (SP), certificada em edições do Prêmio Fundação Banco do Brasil de Tecnologia Social e voltada à redução de custo energético em moradias populares.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://transforma.fbb.org.br/blog/conheca-os-ganhadores-do-premio-fundacao-bb-de-tecnologia-social", "data": "2023-01-01"},
+        {"tipo": "reportagem", "url": "https://lagosul.com.br/fundacao-banco-do-brasil-anuncia-os-vencedores-do-12-premio-fundacao-bb-de-tecnologia-social/", "data": "2023-01-01"}
+      ],
+      "regiao": "São Paulo, SP",
+      "data_evento": "2023",
+      "tags": ["energia solar", "moradia popular", "tecnologia social"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0005",
+      "trilha": 1,
+      "titulo": "Kits Bomba Solar — Energia das Mulheres da Terra",
+      "resumo": "Tecnologia social de bombeamento de água por energia solar, desenvolvida pela Cooperativa Mista de Trabalho Casa do Cerrado Ceres (GO), voltada à irrigação por mulheres agricultoras. Vencedora certificada do Prêmio Fundação Banco do Brasil de Tecnologia Social.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://transforma.fbb.org.br/blog/conheca-os-ganhadores-do-premio-fundacao-bb-de-tecnologia-social", "data": "2023-01-01"},
+        {"tipo": "reportagem", "url": "https://jornaldebrasilia.com.br/blogs-e-colunas/analice-nicolau/vencedores-da-12a-edicao-do-premio-fundacao-banco-do-brasil-de-tecnologia-social-serao-anunciados-nesta-sexta/", "data": "2023-01-01"}
+      ],
+      "regiao": "Ceres, GO",
+      "data_evento": "2023",
+      "tags": ["energia solar", "mulheres rurais", "irrigação", "tecnologia social"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0006",
+      "trilha": 1,
+      "titulo": "Redes de Impacto — reaproveitamento de redes de pesca descartadas",
+      "resumo": "Iniciativa do Instituto Ecomar (RJ), idealizada por Beatriz Mattiuzzo, que trabalha diretamente com comunidades costeiras e caiçaras reutilizando redes de pesca descartadas para gerar renda e evitar poluição marinha. Certificada como nova tecnologia social pela Fundação Banco do Brasil.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://transforma.fbb.org.br/blog/conheca-os-ganhadores-do-premio-fundacao-bb-de-tecnologia-social", "data": "2023-01-01"},
+        {"tipo": "reportagem", "url": "https://lagosul.com.br/fundacao-banco-do-brasil-anuncia-os-vencedores-do-12-premio-fundacao-bb-de-tecnologia-social/", "data": "2023-01-01"}
+      ],
+      "regiao": "Rio de Janeiro, RJ",
+      "data_evento": "2023",
+      "tags": ["poluição marinha", "comunidades caiçaras", "economia circular"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0007",
+      "trilha": 3,
+      "titulo": "Programa Fica Vivo — prevenção de homicídios no Morro das Pedras (BH)",
+      "resumo": "Programa de prevenção de homicídios implementado em 2002 na comunidade do Morro das Pedras, Belo Horizonte, combinando articulação policial e ações sociais. Estudos acadêmicos (2002–2006) registraram redução de 69% no número médio de homicídios nos primeiros seis meses de implementação, com resultados mais modestos nas expansões subsequentes para outras favelas da cidade.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "artigo acadêmico", "url": "https://www.researchgate.net/publication/250043162_Impacto_do_Programa_Fica_Vivo_na_reducao_dos_homicidios_em_comunidade_de_Belo_Horizonte", "data": "2008-01-01"},
+        {"tipo": "tese de doutorado", "url": "https://repositorio.ufmg.br/handle/1843/AMSA-7DAKTX", "data": "2008-01-01"}
+      ],
+      "regiao": "Morro das Pedras, Belo Horizonte, MG",
+      "data_evento": "2002",
+      "tags": ["segurança pública", "prevenção de homicídios", "política social"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0008",
+      "trilha": 1,
+      "titulo": "Programa Um Milhão de Cisternas (P1MC) — ASA Brasil",
+      "resumo": "Programa da Articulação Semiárido Brasileiro (ASA) que constrói cisternas de placas de cimento para armazenamento de água da chuva junto às residências rurais do semiárido. Em duas décadas, mais de 1,2 milhão de cisternas foram construídas, beneficiando cerca de 5 milhões de pessoas. Estudo da UFRN (2010) associou as cisternas à permanência de famílias em seus municípios de origem, mesmo diante de secas.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://asabrasil.org.br/asa/", "data": "2025-01-01"},
+        {"tipo": "reportagem", "url": "https://saibamais.jor.br/2025/03/cisternas-ajudam-a-conter-migracao-no-semiarido-aponta-estudo-da-ufrn/", "data": "2025-03-01"}
+      ],
+      "regiao": "Semiárido (9 estados do Nordeste e norte de MG)",
+      "data_evento": "2003",
+      "tags": ["acesso à água", "semiárido", "tecnologia social", "êxodo rural"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0009",
+      "trilha": 3,
+      "titulo": "Rede Brasileira de Bancos de Leite Humano (rBLH)",
+      "resumo": "Maior e mais complexa rede de bancos de leite humano do mundo, com mais de 220 unidades em todos os estados brasileiros. Reconhecida pela OMS em 2001 como uma das ações que mais contribuíram para a redução da mortalidade infantil no mundo na década de 1990; seu coordenador, João Aprígio Guerra de Almeida, recebeu o Prêmio Dr. Lee Jong-wook de Saúde Pública da OMS em 2020. O modelo brasileiro foi exportado para mais de 20 países.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://rblh.fiocruz.br/brasil-recebe-premio-internacional-por-acoes-de-reducao-da-mortalidade-infantil-0", "data": "2020-02-19"},
+        {"tipo": "reportagem", "url": "https://radis.ensp.fiocruz.br/reportagem/aleitamento-materno/leite-humano-salva-vidas/", "data": "2023-01-01"}
+      ],
+      "regiao": "Nacional",
+      "data_evento": "2001",
+      "tags": ["saúde materno-infantil", "mortalidade infantil", "sus", "reconhecimento internacional"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0010",
+      "trilha": 2,
+      "titulo": "Ofício dos Mestres e Mestras da Capoeira / Roda de Capoeira",
+      "resumo": "A Roda de Capoeira e o Ofício dos Mestres de Capoeira foram reconhecidos pelo Iphan como Patrimônio Cultural do Brasil em 2008 (Livros de Registro das Formas de Expressão e dos Saberes). Em 26/11/2014, a Unesco declarou a Roda de Capoeira Patrimônio Cultural Imaterial da Humanidade, reconhecendo a transmissão oral e ritualizada de saberes entre mestres e iniciantes praticada em mais de 160 países.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "site institucional", "url": "http://portal.iphan.gov.br/noticias/detalhes/66/", "data": "2014-11-26"},
+        {"tipo": "site institucional", "url": "https://bcr.iphan.gov.br/bens-culturais/roda-de-capoeira/", "data": "2024-11-11"}
+      ],
+      "regiao": "Nacional",
+      "data_evento": "2014-11-26",
+      "tags": ["capoeira", "unesco", "iphan", "cultura afro-brasileira"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0011",
+      "trilha": 3,
+      "titulo": "Banco Palmas — moeda social do Conjunto Palmeiras (Fortaleza)",
+      "resumo": "Criado em 1998 no Conjunto Palmeiras, bairro periférico de Fortaleza (CE), o Banco Palmas foi o primeiro banco comunitário de desenvolvimento do Brasil, operando com a moeda social Palma para estimular a circulação de renda no próprio bairro. Estudo de 2008 contratado pelo Ministério do Trabalho com a UFC apontou que 90% dos entrevistados relataram melhora na qualidade de vida após a implantação do banco. A metodologia foi replicada em mais de 50 bancos comunitários em nove estados brasileiros.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://www.novosparadigmas.org.br/pratica/banco-comunitario-palmas/", "data": "2019-01-01"},
+        {"tipo": "enciclopédia", "url": "https://en.wikipedia.org/wiki/Banco_Palmas", "data": "2024-01-01"}
+      ],
+      "regiao": "Conjunto Palmeiras, Fortaleza, CE",
+      "data_evento": "1998",
+      "tags": ["economia solidária", "moeda social", "microcrédito"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0012",
+      "trilha": 1,
+      "titulo": "Agricultura Sintrópica — Ernst Götsch, Fazenda Olhos d'Água",
+      "resumo": "Desde 1984, o agricultor suíço Ernst Götsch desenvolveu, na Fazenda Olhos d'Água em Piraí do Norte (BA), um sistema agroflorestal sucessional que recuperou cerca de 410 hectares de terra degradada por corte-e-queima e monocultura de mandioca, com retorno de 14 nascentes de água e da fauna local. A técnica, batizada de agricultura sintrópica, é hoje ensinada em cursos e replicada em diferentes biomas.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "reportagem", "url": "https://www.swissinfo.ch/por/economia/sintonia-com-o-planeta_su%C3%AD%C3%A7o-resgata-terras-degradadas-no-brasil/41937484", "data": "2023-01-01"},
+        {"tipo": "artigo acadêmico", "url": "https://www.researchgate.net/publication/347733201_Da_degradacao_a_floresta_A_Agricultura_Sintropica_de_Ernst_Gotsch_e_sua_aplicacao_nas_Fazendas_Olhos_DAgua_e_Santa_Teresinha_Pirai_do_NorteBA", "data": "2020-01-01"}
+      ],
+      "regiao": "Piraí do Norte, BA",
+      "data_evento": "1984",
+      "tags": ["agrofloresta", "recuperação de solo", "agricultura regenerativa"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0013",
+      "trilha": 3,
+      "titulo": "Bloco da Reciclagem — cooperativas de catadores no Carnaval de São Paulo",
+      "resumo": "Durante o Carnaval de 2026 em São Paulo, catadores organizados nas cooperativas Coopamare, Casa do Catador, Cooperpoba e Coopere Centro comercializaram 32,6 toneladas de materiais recicláveis coletados na folia, movimentando mais de R$ 119 mil, integralmente destinados às próprias cooperativas.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "reportagem", "url": "https://mundocoop.com.br/social/catadores-e-cooperativas-comercializam-326-toneladas-de-reciclaveis-e-movimentam-mais-de-r-119-mil-na-cadeia-da-reciclagem-em-sao-paulo/", "data": "2026-03-01"},
+        {"tipo": "reportagem", "url": "https://universocooperativo5.wordpress.com/2026/03/25/catadores-e-cooperativas-comercializam-326-toneladas-de-reciclaveis-e-movimentam-mais-de-r-119-mil-em-reciclagem/", "data": "2026-03-25"}
+      ],
+      "regiao": "São Paulo, SP",
+      "data_evento": "2026-02-01",
+      "tags": ["catadores", "reciclagem", "economia circular", "cooperativismo"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0014",
+      "trilha": 3,
+      "titulo": "MNCR e o reconhecimento legal dos catadores na Política Nacional de Resíduos Sólidos",
+      "resumo": "O Movimento Nacional dos Catadores de Materiais Recicláveis (MNCR), organizado há mais de duas décadas, obteve em 2010 a inclusão dos catadores de materiais recicláveis como sujeitos de direitos na Política Nacional de Resíduos Sólidos (Lei 12.305/2010), que passou a reconhecer o papel dos catadores na gestão de resíduos sólidos e a prever diretrizes para inclusão social e econômica da categoria.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://www.mncr.org.br/sobre-o-mncr", "data": "2021-01-01"},
+        {"tipo": "reportagem", "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2016-12/catadores-cobram-conscientizacao-e-papel-mais-ativo-de-gestores-municipais", "data": "2016-12-01"}
+      ],
+      "regiao": "Nacional",
+      "data_evento": "2010",
+      "tags": ["catadores", "política pública", "reconhecimento legal"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0015",
+      "trilha": 2,
+      "titulo": "Mestre Vitalino e a cerâmica figurativa do Alto do Moura",
+      "resumo": "O ceramista Vitalino Pereira dos Santos (1909–1963), conhecido como Mestre Vitalino, mudou-se em 1948 para o povoado do Alto do Moura, em Caruaru (PE), onde sua notoriedade nacional a partir de 1947 atraiu famílias inteiras para a produção cerâmica figurativa. O bairro tornou-se referência nacional do ofício, hoje reunindo cerca de 200 artesãos, e é reconhecido pela Unesco como um dos maiores centros de arte figurativa das Américas. A técnica seguiu sendo transmitida por discípulos, incluindo o próprio filho do mestre e outros aprendizes ainda vivos.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "enciclopédia", "url": "https://enciclopedia.itaucultural.org.br/pessoas/2794-mestre-vitalino", "data": "2024-01-01"},
+        {"tipo": "reportagem", "url": "https://www.elfikurten.com.br/2013/01/mestre-vitalino-arte-feita-de-barro.html", "data": "2013-01-20"}
+      ],
+      "regiao": "Alto do Moura, Caruaru, PE",
+      "data_evento": "1948",
+      "tags": ["cerâmica popular", "artesanato", "unesco", "transmissão de ofício"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0016",
+      "trilha": 1,
+      "titulo": "Reserva Extrativista Chico Mendes — modelo pioneiro sob pressão",
+      "resumo": "Criada em 1990, um ano e meio após o assassinato do líder seringueiro Chico Mendes, a Reserva Extrativista Chico Mendes (Xapuri, AC) foi o primeiro modelo brasileiro de conservação por populações tradicionais, permitindo manejo sustentável de recursos florestais sem expulsão de comunidades. Estudos recentes (2018–2023), no entanto, registram desmatamento superior ao limite de 10% previsto no plano de manejo, atribuído em parte à pecuária praticada pelos próprios moradores.",
+      "analise": "A tensão entre o modelo original — viabilidade econômica do extrativismo sem desmatamento — e a pressão pecuária atual não está reconciliada nas fontes disponíveis; ambos os lados (defensores do modelo original e estudos que registram o desmatamento recente) têm apoio documental.",
+      "evidencia": "ev-contested",
+      "fontes": [
+        {"tipo": "reportagem", "url": "https://www.institutoclaro.org.br/cidadania/nossas-novidades/reportagens/legado-de-chico-mendes-reservas-extrativistas-ajudaram-a-frear-desmatamento-da-amazonia/", "data": "2018-12-01"},
+        {"tipo": "artigo acadêmico", "url": "https://periodicos.ufpa.br/index.php/conexoes/article/viewFile/18451/12210", "data": "2023-12-01"}
+      ],
+      "regiao": "Xapuri, AC",
+      "data_evento": "1990",
+      "lacuna_investigativa": "Não há reconciliação clara, nas fontes levantadas, entre os dados de desmatamento por seringal (MapBiomas, 1988–2023) e a avaliação socioeconômica das famílias extrativistas no mesmo período — requer cruzamento direto dos dois conjuntos de dados.",
+      "tags": ["reservas extrativistas", "amazônia", "conflito fundiário", "seringueiros"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0017",
+      "trilha": 2,
+      "titulo": "Terapia Comunitária Integrativa — Fortaleza",
+      "resumo": "Metodologia de escuta coletiva e apoio psicossocial em grupo, sistematizada pela Associação Brasileira de Terapia Comunitária Integrativa (Fortaleza, CE) e certificada como tecnologia social pela Fundação Banco do Brasil.",
+      "evidencia": "ev-alleged",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://transforma.fbb.org.br/blog/conheca-os-ganhadores-do-premio-fundacao-bb-de-tecnologia-social", "data": "2023-01-01"}
+      ],
+      "regiao": "Fortaleza, CE",
+      "data_evento": "2023",
+      "lacuna_investigativa": "Apenas uma fonte primária (comunicado oficial da FBB, replicado por veículos) foi localizada até o momento — corroboração independente pendente antes de promover a ev-confirmed.",
+      "tags": ["saúde mental comunitária", "tecnologia social"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0018",
+      "trilha": 2,
+      "titulo": "Metodologia Cinema Nosso — educação audiovisual comunitária",
+      "resumo": "Metodologia de educação audiovisual voltada a jovens de comunidades do Rio de Janeiro, desenvolvida pela organização Cinema Nosso e certificada como tecnologia social pela Fundação Banco do Brasil.",
+      "evidencia": "ev-alleged",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://transforma.fbb.org.br/blog/conheca-os-ganhadores-do-premio-fundacao-bb-de-tecnologia-social", "data": "2023-01-01"}
+      ],
+      "regiao": "Rio de Janeiro, RJ",
+      "data_evento": "2023",
+      "lacuna_investigativa": "Apenas uma fonte primária localizada até o momento — corroboração independente pendente.",
+      "tags": ["educação audiovisual", "juventude", "tecnologia social"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0019",
+      "trilha": 1,
+      "titulo": "Mandala Tintorial — tingimento natural (Instituto Muhda)",
+      "resumo": "Técnica de tingimento têxtil natural desenvolvida pelo Instituto Muhda (Florianópolis, SC), certificada como tecnologia social pela Fundação Banco do Brasil, como alternativa a corantes sintéticos poluentes.",
+      "evidencia": "ev-alleged",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://transforma.fbb.org.br/blog/conheca-os-ganhadores-do-premio-fundacao-bb-de-tecnologia-social", "data": "2023-01-01"}
+      ],
+      "regiao": "Florianópolis, SC",
+      "data_evento": "2023",
+      "lacuna_investigativa": "Apenas uma fonte primária localizada até o momento — corroboração independente pendente.",
+      "tags": ["tingimento natural", "têxtil sustentável", "tecnologia social"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0020",
+      "trilha": 1,
+      "titulo": "Manejo Pesqueiro Paumari — Amazônia (MT)",
+      "resumo": "Sistema de manejo pesqueiro sustentável praticado pelo povo indígena Paumari, sistematizado pela organização Operação Amazônia Nativa (MT) e certificado como tecnologia social pela Fundação Banco do Brasil.",
+      "evidencia": "ev-alleged",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://transforma.fbb.org.br/blog/conheca-os-ganhadores-do-premio-fundacao-bb-de-tecnologia-social", "data": "2023-01-01"}
+      ],
+      "regiao": "Mato Grosso (povo Paumari)",
+      "data_evento": "2023",
+      "lacuna_investigativa": "Apenas uma fonte primária localizada até o momento — corroboração independente pendente.",
+      "tags": ["manejo pesqueiro", "povos indígenas", "amazônia"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0021",
+      "trilha": 3,
+      "titulo": "Cooperativa Central Justa Trama — cadeia têxtil solidária do algodão agroecológico",
+      "resumo": "Cadeia produtiva têxtil solidária que integra cooperativas de diferentes regiões do Brasil, do cultivo do algodão agroecológico à confecção, sem intermediários externos à economia solidária. Reconhecida como tecnologia social pela Fundação Banco do Brasil em 2019.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://rblh.fiocruz.br/premio-fundacao-banco-do-brasil-de-tecnologias-sociais-de-2019", "data": "2019-01-01"},
+        {"tipo": "site institucional", "url": "https://inovasocial.com.br/tecnologias-sociais/finalistas-premio-fundacao-bb-tecnologias-sociais/", "data": "2019-07-19"}
+      ],
+      "regiao": "Multiestadual",
+      "data_evento": "2019",
+      "tags": ["economia solidária", "algodão agroecológico", "cadeia têxtil"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0022",
+      "trilha": 1,
+      "titulo": "Sistema Agroflorestal de Tomé-Açu (SAFTA)",
+      "resumo": "Sistema agroflorestal praticado por produtores rurais de Tomé-Açu (PA), combinando espécies nativas e cultivos comerciais em manejo consorciado, reconhecido como tecnologia social da Amazônia.",
+      "evidencia": "ev-alleged",
+      "fontes": [
+        {"tipo": "reportagem", "url": "https://jornaldebrasilia.com.br/blogs-e-colunas/analice-nicolau/vencedores-da-12a-edicao-do-premio-fundacao-banco-do-brasil-de-tecnologia-social-serao-anunciados-nesta-sexta/", "data": "2023-01-01"}
+      ],
+      "regiao": "Tomé-Açu, PA",
+      "data_evento": "2023",
+      "lacuna_investigativa": "Apenas uma fonte primária localizada até o momento — corroboração independente pendente.",
+      "tags": ["agrofloresta", "amazônia", "tecnologia social"],
+      "genericizacao_check": true
+    }
+  ]
+}

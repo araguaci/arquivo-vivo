@@ -90,9 +90,57 @@
   {
     "href": "https://arquivo-vivo-omega.vercel.app/",
     "title": "Arquivo Vivo",
-    "description": "Catálogo aberto de casos verificáveis de resolução prática, transmissão de conhecimento e contribuição coletiva no Brasil.",
+    "description": "Catálogo aberto de 30 casos verificáveis de resolução prática, transmissão de conhecimento e contribuição coletiva no Brasil.",
     "icon": "book",
     "current": true,
     "image": "https://arquivo-vivo-omega.vercel.app/assets/arquivo-vivo-hero.png"
+  },
+  {
+    "href": "https://janjometro-0xmanel.vercel.app/",
+    "title": "Janjômetro",
+    "description": "Monitoramento factual de gastos da Presidência, viagens oficiais, CPGF, sigilo e dívida pública via Portal da Transparência e BCB.",
+    "icon": "chart",
+    "current": false,
+    "image": "https://artesdosul.com/assets/img/impostometro-xarticle-hero.webp"
+  },
+  {
+    "href": "https://ciclos.artesdosul.com/",
+    "title": "Ciclos do Brasil",
+    "description": "Dossiê histórico-institucional auditando 26 intervenções, tentativas e recusas militares na República (1889–2026) por grau de evidência.",
+    "icon": "landmark",
+    "current": false,
+    "image": "https://artesdosul.com/assets/img/ciclos-brasil-hero.jpg"
+  },
+  {
+    "href": "https://impostometro.artesdosul.com/",
+    "title": "Impostômetro Cívico",
+    "description": "Calculadora cívica que converte arrecadação tributária e juros da dívida em hospitais, ambulâncias SAMU, creches e escolas com custos auditados.",
+    "icon": "scale",
+    "current": false,
+    "image": "https://artesdosul.com/assets/img/impostometro-xarticle-hero.webp"
+  },
+  {
+    "href": "https://alianca-br.vercel.app/",
+    "title": "Aliança BR",
+    "description": "Observatório cívico independente com dados públicos, garantias constitucionais e acompanhamento transparente de políticas públicas.",
+    "icon": "shield",
+    "current": false,
+    "image": "https://artesdosul.com/assets/img/republica-sequestrada-hero.webp"
+  },
+  {
+    "href": "https://tradicoes.artesdosul.com/",
+    "title": "Tradições & Autossuficiência",
+    "description": "Manual prático de soberania doméstica e rural: dimensionamento de cisternas pluviais, conservação de alimentos e técnicas de ofício.",
+    "icon": "book",
+    "current": false,
+    "image": "https://artesdosul.com/assets/img/tradicoes-sabedoria-ancestral-xarticle-hero.webp"
+  },
+  {
+    "href": "https://lendas.artesdosul.com/",
+    "title": "Lendas do Brasil Profundo",
+    "description": "Bestiário sistêmico, ecologia espiritual e matriz taxonômica de 42 entidades do folclore e patrimônio imaterial brasileiro (IPHAN / UNESCO).",
+    "icon": "scroll",
+    "current": false,
+    "image": "https://lendas.artesdosul.com/icon-512.svg"
   }
 ]

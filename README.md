@@ -15,20 +15,20 @@ Catálogo aberto, CC0, de casos brasileiros verificáveis de resolução prátic
 **Licença:** CC0 1.0  
 **Dados:** [`data/catalog.json`](./data/catalog.json) · **Schema:** [`data/schema.json`](./data/schema.json) · **Metodologia:** [`METHODOLOGY.md`](./METHODOLOGY.md)
 
-### Estado atual (set/2026)
+### Estado atual (nov/2026)
 
 | | |
 |---|---|
-| Entradas publicadas | **22** (`AV-0001`–`AV-0022`) |
-| Próximo ID livre | `AV-0023` |
-| `ev-confirmed` | 21 |
-| `ev-contested` | 1 (`AV-0016`) |
+| Entradas publicadas | **30** (`AV-0001`–`AV-0030`) |
+| Próximo ID livre | `AV-0031` |
+| `ev-confirmed` | 28 |
+| `ev-contested` | 2 (`AV-0016`, `AV-0030`) |
 | `ev-alleged` | 0 |
-| Trilha 1 — Resolução Prática | 10 |
-| Trilha 2 — Transmissão de Conhecimento | 6 |
-| Trilha 3 — Contribuição Coletiva | 6 |
+| Trilha 1 — Resolução Prática | 14 |
+| Trilha 2 — Transmissão de Conhecimento | 8 |
+| Trilha 3 — Contribuição Coletiva | 8 |
 
-Dashboard estático com filtro por trilha e evidência, ficha com imagem e detalhamento (`data/details.json`), protocolo de leitura 6/6 por ID (localStorage) e PWA (`sw.js` cache `arquivo-vivo-v3`).
+Dashboard estático com filtro por trilha e evidência, ficha com imagem e detalhamento (`data/details.json`), protocolo de leitura 6/6 por ID (localStorage) e PWA (`sw.js` cache `arquivo-vivo-v4`).
 
 ## Ecossistema SELVA
 
@@ -78,7 +78,7 @@ Três trilhas, um schema (`1.0.0`): `ev-confirmed` exige duas fontes independent
 | `data/schema.json` | JSON Schema Draft 2020-12 |
 | `assets/casos/AV-NNNN.png` | Visual de cada ficha |
 | `METHODOLOGY.md` | Trilhas, taxonomia evidencial, teste de genericização |
-| `sw.js` | Precache PWA (`arquivo-vivo-v3`) |
+| `sw.js` | Precache PWA (`arquivo-vivo-v4`) |
 
 ## 🛡️ Segurança & LGPD (Sentinel-Security Focus)
 > [!IMPORTANT]
@@ -107,7 +107,7 @@ arquivo-vivo/
 ├── assets/
 │   ├── arquivo-vivo-hero.png
 │   ├── arquivo-vivo-icon.png
-│   └── casos/              # AV-0001.png … AV-0022.png
+│   └── casos/              # AV-0001.png … AV-0030.png
 ├── data/
 │   ├── catalog.json        # corpus (entradas[])
 │   ├── details.json        # detalhamento por ID

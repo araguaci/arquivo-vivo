@@ -372,5 +372,141 @@
         "texto": "Duas fontes independentes: a reportagem de anúncio do prêmio e a página institucional da prefeitura. Publicação da Embrapa sobre a evolução dos SAFs dos cooperados nipo-paraenses da CAMTA existe como rastro acadêmico adicional."
       }
     ]
+  },
+  "AV-0023": {
+    "imagem": "assets/casos/AV-0023.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "A partir de 1901, Vital Brazil estruturou no Instituto Butantan (SP) o programa Defesa contra o Ofidismo baseado num sistema de permuta: trabalhadores rurais e fazendeiros recebiam laços de captura (laço de Lutz) e caixas de madeira padronizadas, despachavam serpentes vivas gratuitamente pelas ferrovias paulistas e recebiam em troca ampolas de soro antiofídico específico, seringas, agulhas e fichas de retorno clínico. Em 1917, Vital Brazil doou a patente do soro ao Estado de São Paulo."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "Sem veneno fresco das espécies brasileiras (jararaca e cascavel), não havia como produzir soro específico em escala; e sem distribuição gratuita para o interior, o soro não chegava a quem era picado na lavoura. A permuta resolveu simultaneamente o gargalo do insumo biológico, a logística ferroviária e a vigilância epidemiológica."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Acervo institucional do Instituto Butantan e reportagem histórica da Pesquisa FAPESP documentam a tabela de troca, o transporte ferroviário e a cessão da patente em 1917. É resolução prática e ciência cidadã com mais de um século de rastro."
+      }
+    ]
+  },
+  "AV-0024": {
+    "imagem": "assets/casos/AV-0024.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "Fundada em 2007 no Mato Grosso a partir da campanha Y Ikatu Xingu, a Associação Rede de Sementes do Xingu reúne mais de 600 coletores — em maioria mulheres indígenas, assentadas da reforma agrária e agricultoras familiares — que fornecem sementes florestais nativas para a técnica de semeadura direta conhecida como muvuca de sementes (mistura de 40 a 80 espécies de diferentes ciclos vegetativos). O modelo já restaurou mais de 11,5 mil hectares nas bacias do Xingu, Araguaia e Teles Pires."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "Plantio convencional de mudas em áreas remotas tem alto custo logístico e mortalidade elevada na estação seca, enquanto comunidades florestais carecem de renda monetária compatível com a floresta em pé. A muvuca reduz o custo por hectare restaurado e remunera diretamente os núcleos coletores."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Duas fontes independentes — a própria associação e a certificação da Fundação Banco do Brasil — confirmam escala em hectares, volume em toneladas e metodologia da muvuca."
+      }
+    ]
+  },
+  "AV-0025": {
+    "imagem": "assets/casos/AV-0025.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "Em 23/10/1972, na Fazenda Rhenânia em Rolândia (PR), o agricultor Herbert Bartz realizou o primeiro plantio comercial de soja sem aração nem gradagem na América Latina, semeando diretamente sobre a palhada do trigo com apoio técnico do Ipeame (atual Embrapa Soja). Em 1979, produtores dos Campos Gerais do Paraná (Nonô Pereira e Franke Dijkstra) fundaram o Clube da Minhoca para sistematizar e difundir os três pilares do Sistema de Plantio Direto (SPD): não revolvimento do solo, cobertura permanente e rotação de culturas."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "O preparo mecanizado europeu de revirar a terra deixava os solos subtropicais do Paraná nus sob chuvas torrenciais, abrindo voçorocas e levando toneladas de solo fértil por hectare a cada safra."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Embrapa e IDR-Paraná documentam a data exata, a propriedade rural, os pesquisadores envolvidos e a transição de experimento isolado para padrão agronômico tropical."
+      }
+    ]
+  },
+  "AV-0026": {
+    "imagem": "assets/casos/AV-0026.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "Registrado pelo Iphan no Livro de Registro dos Saberes em 2008 e inscrito pela Unesco na Lista Representativa do Patrimônio Cultural Imaterial da Humanidade em 04/12/2024, o Modo de Fazer o Queijo Minas Artesanal preserva técnicas familiares baseadas no uso de leite cru recém-ordenhado, coalho, prensagem manual e inoculação do 'pingo' — fermento lático natural recolhido do soro salgado que escorre dos próprios queijos em maturação."
+      },
+      {
+        "titulo": "Como o saber se transmite",
+        "texto": "O 'pingo' carrega a microbiota endêmica de cada fazenda e microrregião (Serro, Serra da Canastra, Salitre, Araxá, Campo das Vertentes) e é compartilhado entre vizinhos quando uma queijaria inicia ou retoma a produção, articulando microbiologia empírica e transmissão oral entre gerações."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Decisão oficial do Iphan/Unesco e cobertura da Agência Brasil confirmam datas, regiões e especificidade técnica do fermento endêmico."
+      }
+    ]
+  },
+  "AV-0027": {
+    "imagem": "assets/casos/AV-0027.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "Em 05/11/2010, o Iphan inscreveu o Sistema Agrícola Tradicional do Rio Negro no Livro de Registro dos Saberes, a partir de solicitação da Associação das Comunidades Indígenas do Médio Rio Negro (ACIMRN). O sistema abrange os municípios de São Gabriel da Cachoeira, Santa Isabel do Rio Negro e Barcelos (AM) e mais de 20 povos indígenas das famílias linguísticas Tukano Oriental, Aruak e Naduhup (Maku)."
+      },
+      {
+        "titulo": "Como o saber se transmite",
+        "texto": "As roças de coivara em solos amazônicos ácidos e pobres em nutrientes mantêm mais de uma centena de variedades de mandioca-brava (Manihot esculenta). As manivas (estacas de plantio) circulam como patrimônio feminino transmitido de mãe e sogra para jovens esposas em redes de exogamia linguística, acompanhadas das técnicas de ralação, prensagem no tipiti e destoxificação do ácido cianídrico."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Dossiê técnico e base de Bens Culturais Registrados do Iphan documentam território, famílias linguísticas e o mecanismo social de circulação genética das manivas."
+      }
+    ]
+  },
+  "AV-0028": {
+    "imagem": "assets/casos/AV-0028.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "Fundada em setembro de 1983 em Florestópolis (PR) pela médica pediatra e sanitarista Zilda Arns Neumann, a Pastoral da Criança organizou líderes comunitários voluntários para visitar famílias mensalmente, pesar crianças em balanças portáteis de suspensão e difundir, a partir de 1987, a colher-medida plástica de duas conchas (uma para sal, outra para açúcar) para preparo seguro do soro caseiro. Em Florestópolis, a mortalidade infantil caiu de 127 para 28 óbitos por mil nascidos vivos no primeiro ano."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "A desidratação por diarreia aguda matava dezenas de milhares de lactentes por ano no Brasil; porém, o preparo doméstico do soro a olho nu trazia risco de hipernatremia (excesso de sal). A colher-medida padronizou a osmolaridade na cozinha doméstica a custo de centavos."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Histórico institucional e registros da Fiocruz documentam o município piloto, o artefato de dosagem e a queda mensurável de mortalidade infantil."
+      }
+    ]
+  },
+  "AV-0029": {
+    "imagem": "assets/casos/AV-0029.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "Organizado a partir de 1990 por mulheres extrativistas de Maranhão, Tocantins, Pará e Piauí, o Movimento Interestadual das Quebradeiras de Coco Babaçu (MIQCB) articula cooperativas de produção de óleo, mesocarpo e sabão com a aprovação das Leis do 'Babaçu Livre' — iniciadas em 1997 no município de Lago dos Rodrigues (MA) e ampliadas para dezenas de municípios, leis estaduais e a Lei Federal 15.431."
+      },
+      {
+        "titulo": "O problema concreto",
+        "texto": "O cercamento de fazendas pecuárias, o uso de agrotóxicos e a derrubada de palmeiras de babaçu (Attalea speciosa) impediam o acesso histórico de cerca de 300 mil quebradeiras à coleta do fruto. As leis municipais positivaram o direito consuetudinário de livre acesso aos babaçuais mesmo dentro de propriedades privadas."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Fontes do MIQCB e do Inventário Nacional de Referências Culturais do Iphan documentam a cronologia legislativa desde 1997 e a cadeia produtiva extrativista."
+      }
+    ]
+  },
+  "AV-0030": {
+    "imagem": "assets/casos/AV-0030.png",
+    "secoes": [
+      {
+        "titulo": "O que está documentado",
+        "texto": "Formulada na década de 1970 em Santarém (PA) pelos médicos Clara e Rubens Brandão com subprodutos agrícolas (farelos de arroz e trigo, pó de folha de mandioca, casca de ovo e sementes), a 'multimistura' foi adotada em larga escala por pastorais e prefeituras contra a desnutrição infantil. Contudo, ensaios clínicos controlados — como o estudo randomizado da UFPel em 24 escolas de educação infantil de Pelotas (Jornal de Pediatria, 2007) — e ensaios experimentais (Revista de Nutrição, 2005) demonstraram ausência de efeito estatisticamente significativo sobre peso/idade, estatura/idade e hemoglobina."
+      },
+      {
+        "titulo": "O que o rastro não esconde",
+        "texto": "O alto teor de ácido fítico (fitatos) e fibras nos farelos crus ou tostados reduz a biodisponibilidade de minerais divalentes como ferro, zinco e cálcio. Diante das evidências acumuladas e dos pareceres técnicos do Conselho Federal de Nutricionistas (CFN), a própria Pastoral da Criança descontinuou a indicação da multimistura para tratamento de anemia e desnutrição."
+      },
+      {
+        "titulo": "Por que entra no arquivo",
+        "texto": "Cumpre a disciplina anti-viés de METHODOLOGY.md: registra com dois estudos indexados via DOI (SciELO) uma tecnologia social popular cuja eficácia intrínseca foi refutada em ensaio controlado, preservando a distinção entre o valor da rede comunitária de vigilância e o limite biológico do insumo."
+      }
+    ]
   }
 }

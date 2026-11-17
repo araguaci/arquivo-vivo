@@ -1,4 +1,4 @@
-const CACHE = "arquivo-vivo-v3";
+const CACHE = "arquivo-vivo-v4";
 const PRECACHE = [
   "./",
   "./index.html",

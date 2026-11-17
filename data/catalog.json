@@ -4,8 +4,8 @@
     "ecosistema": "Eixo SELVA",
     "licenca": "CC0 1.0",
     "versao_schema": "1.0.0",
-    "ultima_atualizacao": "2026-09-12",
-    "proximo_id_livre": "AV-0023",
+    "ultima_atualizacao": "2026-11-17",
+    "proximo_id_livre": "AV-0031",
     "trilhas": {
       "1": "Resolução Prática",
       "2": "Transmissão de Conhecimento",
@@ -343,6 +343,128 @@
       "regiao": "Tomé-Açu, PA",
       "data_evento": "1970",
       "tags": ["agrofloresta", "amazônia", "tecnologia social", "camta"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0023",
+      "trilha": 1,
+      "titulo": "Sistema de Permuta de Serpentes por Soro Antiofídico — Vital Brazil e Instituto Butantan",
+      "resumo": "Após demonstrar a especificidade dos soros antiofídicos para cada gênero de serpente (Bothrops e Crotalus), Vital Brazil estruturou no Instituto Butantan (SP), a partir de 1901, o sistema de permuta: trabalhadores rurais capturavam serpentes vivas com laço de Lutz e as despachavam gratuitamente pelas ferrovias em caixas de madeira padronizadas, recebendo em troca ampolas de soro, seringas, agulhas e fichas epidemiológicas. Em 1917, Vital Brazil doou a patente do soro ao Estado de São Paulo.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://portal.butantan.gov.br/noticias/como-vital-brazil-criou-um-sistema-de-permuta-de-cobras-por-soro-antiofidico-e-fez-ciencia-cidada-ha-mais-de-100-anos", "data": "2022-04-28"},
+        {"tipo": "reportagem científica", "url": "https://revistapesquisa.fapesp.br/vital-brazil-o-vencedor-das-cobras/", "data": "2015-05-01"}
+      ],
+      "regiao": "São Paulo e interior paulista, SP",
+      "data_evento": "1901",
+      "tags": ["saúde pública", "ofidismo", "ciência cidadã", "logística ferroviária", "patente pública"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0024",
+      "trilha": 1,
+      "titulo": "Muvuca de Sementes — Associação Rede de Sementes do Xingu",
+      "resumo": "Criada em 2007 no Mato Grosso a partir da campanha Y Ikatu Xingu, a Rede de Sementes do Xingu articula mais de 600 coletores — majoritariamente mulheres indígenas, assentadas da reforma agrária e agricultoras familiares — na coleta comercial de sementes nativas para semeadura direta (muvuca de sementes, consorciando de 40 a 80 espécies). O arranjo viabilizou a restauração ecológica de mais de 11,5 mil hectares entre as bacias do Xingu, Araguaia e Teles Pires, sendo certificado pela Fundação Banco do Brasil.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://www.sementesdoxingu.org.br/", "data": "2024-01-01"},
+        {"tipo": "site institucional", "url": "https://transforma.fbb.org.br/tecnologia-social/rede-de-sementes-do-xingu", "data": "2021-01-01"}
+      ],
+      "regiao": "Bacias do Xingu, Araguaia e Teles Pires, MT",
+      "data_evento": "2007",
+      "tags": ["restauração ecológica", "muvuca de sementes", "povos indígenas", "xingu", "tecnologia social"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0025",
+      "trilha": 1,
+      "titulo": "Sistema de Plantio Direto na Palha (SPD) — Herbert Bartz e Clube da Minhoca",
+      "resumo": "Diante da erosão hídrica severa provocada pelo preparo convencional de solo com aração e gradagem nas chuvas subtropicais do Paraná, o agricultor Herbert Bartz realizou em 23/10/1972, na Fazenda Rhenânia (Rolândia, PR), o primeiro plantio comercial sem revolvimento de solo sobre a palhada na América Latina, articulado com pesquisadores do Ipeame (atual Embrapa Soja). Em 1979, produtores dos Campos Gerais (Nonô Pereira e Franke Dijkstra) fundaram o Clube da Minhoca para difundir rotação de culturas e cobertura permanente do solo.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://www.embrapa.br/busca-de-noticias/-/noticia/75267978/sistema-plantio-direto-completa-50-anos-no-brasil", "data": "2022-10-21"},
+        {"tipo": "site institucional", "url": "https://www.idrparana.pr.gov.br/Noticia/Cinquenta-anos-de-Plantio-Direto-uma-revolucao-que-comecou-no-Parana", "data": "2022-10-20"}
+      ],
+      "regiao": "Rolândia e Campos Gerais, PR",
+      "data_evento": "1972-10-23",
+      "tags": ["conservação de solo", "controle de erosão", "plantio direto", "agricultura tropical"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0026",
+      "trilha": 2,
+      "titulo": "Modos de Fazer o Queijo Minas Artesanal e o Fermento Natural ('Pingo')",
+      "resumo": "Registrado pelo Iphan no Livro dos Saberes em 2008 e inscrito pela Unesco na Lista Representativa do Patrimônio Cultural Imaterial da Humanidade em 04/12/2024, o modo de fazer o Queijo Minas Artesanal transmite entre gerações da agricultura familiar o manejo do leite cru e do 'pingo' — soro salgado drenado da própria produção anterior que preserva bactérias láticas endêmicas de cada microrregião (Serro, Canastra, Salitre, Araxá e demais regiões produtoras).",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://www.gov.br/iphan/pt-br/assuntos/noticias/modos-de-fazer-o-queijo-minas-artesanal-sao-reconhecidos-como-patrimonio-cultural-imaterial-da-humanidade-pela-unesco", "data": "2024-12-04"},
+        {"tipo": "reportagem", "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2024-12/unesco-declara-queijo-minas-artesanal-patrimonio-da-humanidade", "data": "2024-12-04"}
+      ],
+      "regiao": "Serro, Serra da Canastra, Salitre e regiões produtoras, MG",
+      "data_evento": "2024-12-04",
+      "tags": ["queijo minas artesanal", "patrimônio imaterial", "unesco", "iphan", "fermentação tradicional"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0027",
+      "trilha": 2,
+      "titulo": "Sistema Agrícola Tradicional do Rio Negro — manejo de roças e agrobiodiversidade da mandioca",
+      "resumo": "Reconhecido pelo Iphan em 05/11/2010 no Livro de Registro dos Saberes a pedido da Associação das Comunidades Indígenas do Médio Rio Negro (ACIMRN), o sistema articula mais de 20 povos indígenas das famílias linguísticas Tukano Oriental, Aruak e Naduhup (Maku). A transmissão intergeracional entre mulheres agricultoras mantém centenas de variedades de mandioca-brava (Manihot esculenta), redes de troca de manivas por afinidade e técnicas de destoxificação em solos ácidos de terra firme.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "site institucional", "url": "http://portal.iphan.gov.br/pagina/detalhes/74", "data": "2010-11-05"},
+        {"tipo": "site institucional", "url": "https://bcr.iphan.gov.br/bens-culturais/sistema-agricola-tradicional-do-rio-negro/", "data": "2024-01-01"}
+      ],
+      "regiao": "São Gabriel da Cachoeira, Santa Isabel do Rio Negro e Barcelos, AM",
+      "data_evento": "2010-11-05",
+      "tags": ["agrobiodiversidade", "povos indígenas", "rio negro", "mandioca", "iphan"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0028",
+      "trilha": 3,
+      "titulo": "Colher-Medida do Soro Caseiro e Vigilância Nutricional Comunitária — Pastoral da Criança",
+      "resumo": "Iniciada em setembro de 1983 em Florestópolis (PR) pela médica pediatra e sanitarista Zilda Arns Neumann, a Pastoral da Criança estruturou uma rede de líderes comunitários voluntários para pesagem mensal de crianças, estímulo ao aleitamento e distribuição, a partir de 1987, da colher-medida plástica de dupla concha para preparo domiciliar exato do soro de reidratação oral (água, sal e açúcar). No primeiro ano em Florestópolis, a mortalidade infantil local caiu de 127 para 28 por mil nascidos vivos.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://www.pastoraldacrianca.org.br/historia", "data": "2023-01-01"},
+        {"tipo": "site institucional", "url": "https://portal.fiocruz.br/noticia/zilda-arns-uma-vida-dedicada-saude-das-criancas-brasileiras", "data": "2010-01-13"}
+      ],
+      "regiao": "Florestópolis, PR (expansão nacional)",
+      "data_evento": "1983",
+      "tags": ["mortalidade infantil", "reidratação oral", "saúde comunitária", "soro caseiro"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0029",
+      "trilha": 3,
+      "titulo": "Movimento Interestadual das Quebradeiras de Coco Babaçu (MIQCB) e as Leis do 'Babaçu Livre'",
+      "resumo": "Articulado desde 1990 por mulheres extrativistas de Maranhão, Tocantins, Pará e Piauí, o MIQCB estruturou cooperativas de beneficiamento integral do coco babaçu (Attalea speciosa) e impulsionou as Leis do Babaçu Livre — iniciadas em Lago dos Rodrigues (MA) em 1997 e posteriormente consolidadas na Lei Federal 15.431 —, que proíbem a derrubada de palmeiras e garantem livre acesso de quebradeiras aos babaçuais para coleta comunitária.",
+      "evidencia": "ev-confirmed",
+      "fontes": [
+        {"tipo": "site institucional", "url": "https://www.miqcb.org.br/quem-somos", "data": "2024-01-01"},
+        {"tipo": "site institucional", "url": "http://portal.iphan.gov.br/noticias/detalhes/5892", "data": "2021-03-08"}
+      ],
+      "regiao": "Maranhão, Tocantins, Pará e Piauí",
+      "data_evento": "1997",
+      "tags": ["extrativismo", "mulheres rurais", "babaçu livre", "direito consuetudinário", "economia solidária"],
+      "genericizacao_check": true
+    },
+    {
+      "id": "AV-0030",
+      "trilha": 1,
+      "titulo": "Farinha Multimistura na Suplementação Infantil — difusão comunitária vs. ensaios clínicos controlados",
+      "resumo": "Formulada na década de 1970 em Santarém (PA) a partir de farelos de arroz e trigo, pó de folha de mandioca, casca de ovo e sementes, a 'multimistura' foi amplamente difundida em comunidades de baixa renda como suplemento contra a desnutrição infantil. A partir dos anos 2000, o Conselho Federal de Nutricionistas (CFN) e ensaios clínicos randomizados — como o estudo da UFPel em 24 escolas municipais (2007) — registraram ausência de efeito estatisticamente significativo em peso, estatura ou hemoglobina, levando a Pastoral da Criança a retirar a recomendação institucional do produto para tratamento de anemia e desnutrição.",
+      "analise": "O caso ilustra a distinção analítica entre mobilização social eficaz (pesagem mensal e atenção comunitária às famílias) e eficácia bioquímica isolada de um insumo alimentar cujos fitatos limitam a biodisponibilidade de ferro e zinco.",
+      "evidencia": "ev-contested",
+      "fontes": [
+        {"tipo": "artigo acadêmico", "url": "https://doi.org/10.2223/JPED.1650", "data": "2007-08-01"},
+        {"tipo": "artigo acadêmico", "url": "https://doi.org/10.1590/S1415-52732005000100006", "data": "2005-02-01"}
+      ],
+      "regiao": "Nacional (ensaio clínico de referência em Pelotas, RS)",
+      "data_evento": "2007",
+      "lacuna_investigativa": "Não há decomposição estatística retrospectiva que separe, nos municípios que adotaram a multimistura entre 1985 e 2000, a queda de desnutrição causada pelo acompanhamento domiciliar mensal e pelo soro caseiro daquela atribuída exclusivamente à farinha multimistura.",
+      "tags": ["nutrição infantil", "multimistura", "evidência científica", "controvérsia metodológica"],
       "genericizacao_check": true
     }
   ]
